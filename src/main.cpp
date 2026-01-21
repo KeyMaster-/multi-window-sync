@@ -9,7 +9,6 @@
 #include <vector>
 #include <windows.h>
 
-#include <nvapi.h>
 #include <tracy/tracy.hpp>
 
 #include <volk.h>
@@ -96,20 +95,6 @@ bool check_hr(HRESULT hr)
 #define CONCAT(a, b) CONCAT_(a, b)
 #define assert_hr_(name, exp) HRESULT name = exp; UNUSED_VARIABLE(name); assert(check_hr(name))
 #define assert_hr(exp) assert_hr_(CONCAT(___hr, __COUNTER__), exp)
-
-bool check_nv(NvAPI_Status nv)
-{
-  if (nv != NvAPI_Status::NVAPI_OK) {
-    NvAPI_ShortString err;
-    NvAPI_GetErrorMessage(nv, err);
-    Log("NvAPI error (code %d): %s", nv, err);
-    return false;
-  }
-  return true;
-}
-
-#define assert_nv_(name, exp) NvAPI_Status name = exp; UNUSED_VARIABLE(name); assert(check_nv(name))
-#define assert_nv(exp) assert_nv_(CONCAT(___nv, __COUNTER__), exp)
 
 bool check_vk(VkResult result)
 {
@@ -419,8 +404,6 @@ float4 main(VSOutput input, uniform ShaderData* shaderData) {
 int main(int argc, const char** argv)
 {
   UNUSED_VARIABLE(argc, argv);
-
-  NvAPI_Initialize();
 
   std::vector<HMONITOR> monitors;
   auto monitorEnumProc = [](HMONITOR monitor, HDC hdc, LPRECT rect, LPARAM param) -> int {
@@ -1207,8 +1190,6 @@ int main(int argc, const char** argv)
   for (int i = 0; i < windows.size(); i++) {
     destroyWindow(windows[i]);
   }
-
-  NvAPI_Unload();
 
   return EXIT_SUCCESS;
 }
