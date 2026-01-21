@@ -272,19 +272,17 @@ static bool createWindow(const char* className, int idx, std::array<long, 4> rec
   // windowHandle gets stored in windows[idx] from the WindowProc callback.
 
   HDC hdc = ::GetDC(windowHandle);
-  PIXELFORMATDESCRIPTOR pfd = {};
+  PIXELFORMATDESCRIPTOR pfd{};
   pfd.nSize = sizeof(PIXELFORMATDESCRIPTOR);
   pfd.nVersion = 1;
-  // Derived from the results I got when making the default rendernode window.
-//  pfd.dwFlags = PFD_DOUBLEBUFFER|PFD_DRAW_TO_WINDOW|PFD_SUPPORT_OPENGL|PFD_SWAP_EXCHANGE|PFD_SUPPORT_COMPOSITION;
-  pfd.dwFlags = PFD_DRAW_TO_WINDOW|PFD_SWAP_EXCHANGE;
+  pfd.dwFlags = PFD_DRAW_TO_WINDOW;
   pfd.iPixelType = PFD_TYPE_RGBA;
-  pfd.cColorBits = 32;
+  pfd.cColorBits = 24;
   pfd.cAlphaBits = 8;
-  pfd.cDepthBits = 24;
+  pfd.cDepthBits = 0;
   pfd.cStencilBits = 0;
-  pfd.cAccumBits = 64;
-  pfd.cAuxBuffers = 4;
+  pfd.cAccumBits = 0;
+  pfd.cAuxBuffers = 0;
   pfd.iLayerType = PFD_MAIN_PLANE;
 
   int formatIdx = ::ChoosePixelFormat(hdc, &pfd);
