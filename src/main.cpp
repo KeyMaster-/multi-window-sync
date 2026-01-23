@@ -893,8 +893,13 @@ int main(int argc, const char** argv)
   };
 
   uint32_t skipCounter = 0;
-  constexpr uint32_t numRenderFrames = 5;
+  constexpr uint32_t numRenderFrames = 12;
   constexpr uint32_t frameCyclePeriod = 12;
+
+  VkSetLatencyMarkerInfoNV latencyMarkerInfo{};
+  latencyMarkerInfo.sType = VK_STRUCTURE_TYPE_SET_LATENCY_MARKER_INFO_NV;
+  std::vector<VkLatencyTimingsFrameReportNV> latencyReports;
+  uint64_t loggedLatencyPresentId = 0;
 
   int linePos = 0;
   auto frameStart = std::chrono::high_resolution_clock::now();
@@ -916,6 +921,9 @@ int main(int argc, const char** argv)
     Log("Beginning local frame %d", s_frameCount);
 
     uint32_t resourceIdx = s_frameCount % maxFramesInFlight;
+    uint64_t presentId = s_frameCount+1; // +1 because we need it to be non-0. PresentId 0 means "ID not set".
+    latencyMarkerInfo.presentID = presentId;
+
     {
       ZoneScopedN("wait on fences");
       // Wait on frame fences of all windows
@@ -931,8 +939,8 @@ int main(int argc, const char** argv)
     {
       ZoneScopedN("Wait on low latency semaphores");
 
-      std::vector<VkSemaphore> waitSemaphores{windows.size()};
-      std::vector<uint64_t> semaphoreValues{windows.size()};
+      std::vector<VkSemaphore> waitSemaphores(windows.size());
+      std::vector<uint64_t> semaphoreValues(windows.size());
       for (size_t i = 0; i < windows.size(); i++) {
         Window& window = windows[i];
 
@@ -954,7 +962,8 @@ int main(int argc, const char** argv)
       vkWaitSemaphores(vk.device, &waitInfo, 1000000000);
     }
 
-    uint64_t presentId = s_frameCount+1; // +1 because we need it to be non-0. PresentId 0 means "ID not set".
+    latencyMarkerInfo.marker = VK_LATENCY_MARKER_SIMULATION_START_NV;
+    vkSetLatencyMarkerNV(vk.device, windows[0].swapchain, &latencyMarkerInfo);
 
     std::vector<uint32_t> imageIdxs(windows.size());
     for (size_t i = 0; i < windows.size(); i++) {
@@ -1105,6 +1114,7 @@ int main(int argc, const char** argv)
 
     {
       ZoneScopedN("queue present");
+      ZoneTextF("presentID: %llu", presentId);
       {
         char imgIdxList[128];
         int c = 0;
@@ -1139,7 +1149,12 @@ int main(int argc, const char** argv)
       presentInfo.swapchainCount = swapchainCount;
       presentInfo.pSwapchains = swapchains.data();
       presentInfo.pImageIndices = imageIdxs.data();
+
+      latencyMarkerInfo.marker = VK_LATENCY_MARKER_PRESENT_START_NV;
+      vkSetLatencyMarkerNV(vk.device, windows[0].swapchain, &latencyMarkerInfo);
       assert_vk(vkQueuePresentKHR(vk.queue, &presentInfo));
+      latencyMarkerInfo.marker = VK_LATENCY_MARKER_PRESENT_END_NV;
+      vkSetLatencyMarkerNV(vk.device, windows[0].swapchain, &latencyMarkerInfo);
     }
 
     PumpMessages();
@@ -1151,6 +1166,82 @@ int main(int argc, const char** argv)
 
     s_frameCount++;
     skipCounter++;
+
+    latencyMarkerInfo.marker = VK_LATENCY_MARKER_SIMULATION_END_NV;
+    vkSetLatencyMarkerNV(vk.device, windows[0].swapchain, &latencyMarkerInfo);
+
+    {
+      VkGetLatencyMarkerInfoNV markerInfo{};
+      markerInfo.sType = VK_STRUCTURE_TYPE_GET_LATENCY_MARKER_INFO_NV;
+      vkGetLatencyTimingsNV(vk.device, windows[0].swapchain, &markerInfo);
+
+      latencyReports.resize(markerInfo.timingCount);
+      markerInfo.pTimings = latencyReports.data();
+      vkGetLatencyTimingsNV(vk.device, windows[0].swapchain, &markerInfo);
+
+      if (markerInfo.timingCount > 0) {
+        uint32_t reportIdx = markerInfo.timingCount - 1;
+        for (; reportIdx >= 0; reportIdx--) {
+          if (latencyReports[reportIdx].presentID <= loggedLatencyPresentId) break;
+        }
+
+        if (reportIdx < markerInfo.timingCount - 1) {
+          reportIdx++;
+        }
+
+        Log("Latency reports:");
+        for (; reportIdx < markerInfo.timingCount; reportIdx++) {
+          if (reportIdx > 0) {
+            VkLatencyTimingsFrameReportNV diff{};
+            diff.inputSampleTimeUs =        latencyReports[reportIdx].inputSampleTimeUs        - latencyReports[reportIdx - 1].inputSampleTimeUs;
+            diff.simStartTimeUs =           latencyReports[reportIdx].simStartTimeUs           - latencyReports[reportIdx - 1].simStartTimeUs;
+            diff.simEndTimeUs =             latencyReports[reportIdx].simEndTimeUs             - latencyReports[reportIdx - 1].simEndTimeUs;
+            diff.renderSubmitStartTimeUs =  latencyReports[reportIdx].renderSubmitStartTimeUs  - latencyReports[reportIdx - 1].renderSubmitStartTimeUs;
+            diff.renderSubmitEndTimeUs =    latencyReports[reportIdx].renderSubmitEndTimeUs    - latencyReports[reportIdx - 1].renderSubmitEndTimeUs;
+            diff.presentStartTimeUs =       latencyReports[reportIdx].presentStartTimeUs       - latencyReports[reportIdx - 1].presentStartTimeUs;
+            diff.presentEndTimeUs =         latencyReports[reportIdx].presentEndTimeUs         - latencyReports[reportIdx - 1].presentEndTimeUs;
+            diff.driverStartTimeUs =        latencyReports[reportIdx].driverStartTimeUs        - latencyReports[reportIdx - 1].driverStartTimeUs;
+            diff.driverEndTimeUs =          latencyReports[reportIdx].driverEndTimeUs          - latencyReports[reportIdx - 1].driverEndTimeUs;
+            diff.osRenderQueueStartTimeUs = latencyReports[reportIdx].osRenderQueueStartTimeUs - latencyReports[reportIdx - 1].osRenderQueueStartTimeUs;
+            diff.osRenderQueueEndTimeUs =   latencyReports[reportIdx].osRenderQueueEndTimeUs   - latencyReports[reportIdx - 1].osRenderQueueEndTimeUs;
+            diff.gpuRenderStartTimeUs =     latencyReports[reportIdx].gpuRenderStartTimeUs     - latencyReports[reportIdx - 1].gpuRenderStartTimeUs;
+            diff.gpuRenderEndTimeUs =       latencyReports[reportIdx].gpuRenderEndTimeUs       - latencyReports[reportIdx - 1].gpuRenderEndTimeUs;
+
+            Log("presentID %llu > presentID %llu:\n"
+                "  Δ simStartTime:       %fms\n"
+                "  Δ presentStartTime:   %fms\n"
+                "  Δ gpuRenderStartTime: %fms\n",
+                latencyReports[reportIdx-1].presentID, latencyReports[reportIdx].presentID,
+                (double)diff.simStartTimeUs       / 1000.0,
+                (double)diff.presentStartTimeUs   / 1000.0,
+                (double)diff.gpuRenderStartTimeUs / 1000.0);
+          }
+
+          auto& rep = latencyReports[reportIdx];
+          uint64_t simDur           = rep.simEndTimeUs           - rep.simStartTimeUs;
+          uint64_t presentDur       = rep.presentEndTimeUs       - rep.presentStartTimeUs;
+          uint64_t driverDur        = rep.driverEndTimeUs        - rep.driverStartTimeUs;
+          uint64_t osRenderQueueDur = rep.osRenderQueueEndTimeUs - rep.osRenderQueueStartTimeUs;
+          uint64_t gpuRenderDur     = rep.gpuRenderEndTimeUs     - rep.gpuRenderStartTimeUs;
+          Log("presentID %llu:\n"
+              "  simStart > renderEnd: %fms\n"
+              "  sim: %fms\n"
+              "  present: %fms\n"
+              "  driver: %fms\n"
+              "  osRenderQueue: %fms\n"
+              "  gpuRender: %fms\n",
+              rep.presentID,
+              (double)(rep.gpuRenderEndTimeUs - rep.simStartTimeUs) / 1000.0,
+              (double)simDur           / 1000.0,
+              (double)presentDur       / 1000.0,
+              (double)driverDur        / 1000.0,
+              (double)osRenderQueueDur / 1000.0,
+              (double)gpuRenderDur     / 1000.0);
+        }
+
+        loggedLatencyPresentId = latencyReports[markerInfo.timingCount - 1].presentID;
+      }
+    }
   }
 
   assert_vk(vkDeviceWaitIdle(vk.device));
