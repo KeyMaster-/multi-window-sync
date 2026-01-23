@@ -1,0 +1,3302 @@
+[11:52:04.780] Monitor 0 rect: 0, 0, 1920, 1200
+[11:52:04.782] Monitor 1 rect: -1920, 0, 1536, 960
+[11:52:04.786] old handle: 0, new handle 1c70ed6
+[11:52:04.834] Create window handle: 1c70ed6 (idx 0)
+[11:52:05.040] old handle: 0, new handle 240f4a
+[11:52:05.057] Create window handle: 240f4a (idx 1)
+[11:52:05.856] Frame took 0.00ms
+[11:52:05.856] Beginning local frame 0
+[11:52:05.857]   Pumping messages for window 0
+[11:52:05.858]   Pumping messages for window 1
+[11:52:05.858] Frame took 2.22ms
+[11:52:05.858] Beginning local frame 1
+[11:52:05.858]   Pumping messages for window 0
+[11:52:05.858]   Pumping messages for window 1
+[11:52:05.859] Frame took 0.60ms
+[11:52:05.859] Beginning local frame 2
+[11:52:05.859]   Pumping messages for window 0
+[11:52:05.859]   Pumping messages for window 1
+[11:52:05.859] Frame took 0.36ms
+[11:52:05.859] Beginning local frame 3
+[11:52:05.859]   Pumping messages for window 0
+[11:52:05.859]   Pumping messages for window 1
+[11:52:05.859] Frame took 0.32ms
+[11:52:05.859] Beginning local frame 4
+[11:52:05.861]   Pumping messages for window 0
+[11:52:05.861]   Pumping messages for window 1
+[11:52:05.861] Frame took 1.86ms
+[11:52:05.861] Beginning local frame 5
+[11:52:05.880]   Pumping messages for window 0
+[11:52:05.880]   Pumping messages for window 1
+[11:52:05.880] Frame took 18.76ms
+[11:52:05.880] Beginning local frame 6
+[11:52:05.921]   Pumping messages for window 0
+[11:52:05.921]   Pumping messages for window 1
+[11:52:05.921] Frame took 41.46ms
+[11:52:05.921] Beginning local frame 7
+[11:52:05.938]   Pumping messages for window 0
+[11:52:05.938]   Pumping messages for window 1
+[11:52:05.938] Frame took 16.52ms
+[11:52:05.938] Beginning local frame 8
+[11:52:05.971]   Pumping messages for window 0
+[11:52:05.971]   Pumping messages for window 1
+[11:52:05.971] Frame took 33.53ms
+[11:52:05.971] Beginning local frame 9
+[11:52:05.988]   Pumping messages for window 0
+[11:52:05.988]   Pumping messages for window 1
+[11:52:05.988] Frame took 16.56ms
+[11:52:05.988] Beginning local frame 10
+[11:52:06.004]   Pumping messages for window 0
+[11:52:06.004]   Pumping messages for window 1
+[11:52:06.005] Frame took 16.62ms
+[11:52:06.005] Beginning local frame 11
+[11:52:06.021]   Pumping messages for window 0
+[11:52:06.021]   Pumping messages for window 1
+[11:52:06.021] Frame took 16.54ms
+[11:52:06.021] Beginning local frame 12
+[11:52:06.038]   Pumping messages for window 0
+[11:52:06.038]   Pumping messages for window 1
+[11:52:06.038] Frame took 16.68ms
+[11:52:06.038] Beginning local frame 13
+[11:52:06.054]   Pumping messages for window 0
+[11:52:06.057]   Pumping messages for window 1
+[11:52:06.057] Frame took 19.22ms
+[11:52:06.057] Beginning local frame 14
+[11:52:06.087]   Pumping messages for window 0
+[11:52:06.088]   Pumping messages for window 1
+[11:52:06.088] Frame took 30.80ms
+[11:52:06.088] Beginning local frame 15
+[11:52:06.104]   Pumping messages for window 0
+[11:52:06.105]   Pumping messages for window 1
+[11:52:06.105] Frame took 17.46ms
+[11:52:06.105] Beginning local frame 16
+[11:52:06.121]   Pumping messages for window 0
+[11:52:06.122]   Pumping messages for window 1
+[11:52:06.122] Frame took 16.74ms
+[11:52:06.122] Beginning local frame 17
+[11:52:06.138]   Pumping messages for window 0
+[11:52:06.138]   Pumping messages for window 1
+[11:52:06.138] Frame took 15.85ms
+[11:52:06.138] Beginning local frame 18
+[11:52:06.154]   Pumping messages for window 0
+[11:52:06.154]   Pumping messages for window 1
+[11:52:06.154] Frame took 16.27ms
+[11:52:06.154] Beginning local frame 19
+[11:52:06.171]   Pumping messages for window 0
+[11:52:06.171]   Pumping messages for window 1
+[11:52:06.171] Frame took 16.67ms
+[11:52:06.171] Beginning local frame 20
+[11:52:06.187]   Pumping messages for window 0
+[11:52:06.187]   Pumping messages for window 1
+[11:52:06.187] Frame took 16.66ms
+[11:52:06.187] Beginning local frame 21
+[11:52:06.204]   Pumping messages for window 0
+[11:52:06.204]   Pumping messages for window 1
+[11:52:06.204] Frame took 16.67ms
+[11:52:06.204] Beginning local frame 22
+[11:52:06.221]   Pumping messages for window 0
+[11:52:06.221]   Pumping messages for window 1
+[11:52:06.221] Frame took 16.72ms
+[11:52:06.221] Beginning local frame 23
+[11:52:06.238]   Pumping messages for window 0
+[11:52:06.243]   Pumping messages for window 1
+[11:52:06.243] Frame took 22.47ms
+[11:52:06.243] Beginning local frame 24
+[11:52:06.254]   Pumping messages for window 0
+[11:52:06.254]   Pumping messages for window 1
+[11:52:06.254] Frame took 11.08ms
+[11:52:06.254] Beginning local frame 25
+[11:52:06.270]   Pumping messages for window 0
+[11:52:06.272]   Pumping messages for window 1
+[11:52:06.273] Frame took 18.41ms
+[11:52:06.273] Beginning local frame 26
+[11:52:06.287]   Pumping messages for window 0
+[11:52:06.287]   Pumping messages for window 1
+[11:52:06.287] Frame took 14.59ms
+[11:52:06.287] Beginning local frame 27
+[11:52:06.304]   Pumping messages for window 0
+[11:52:06.304]   Pumping messages for window 1
+[11:52:06.304] Frame took 16.72ms
+[11:52:06.304] Beginning local frame 28
+[11:52:06.320]   Pumping messages for window 0
+[11:52:06.321]   Pumping messages for window 1
+[11:52:06.321] Frame took 16.68ms
+[11:52:06.321] Beginning local frame 29
+[11:52:06.337]   Pumping messages for window 0
+[11:52:06.337]   Pumping messages for window 1
+[11:52:06.337] Frame took 16.57ms
+[11:52:06.337] Beginning local frame 30
+[11:52:06.354]   Pumping messages for window 0
+[11:52:06.354]   Pumping messages for window 1
+[11:52:06.354] Frame took 16.69ms
+[11:52:06.354] Beginning local frame 31
+[11:52:06.370]   Pumping messages for window 0
+[11:52:06.371]   Pumping messages for window 1
+[11:52:06.371] Frame took 17.00ms
+[11:52:06.371] Beginning local frame 32
+[11:52:06.387]   Pumping messages for window 0
+[11:52:06.387]   Pumping messages for window 1
+[11:52:06.388] Frame took 16.53ms
+[11:52:06.388] Beginning local frame 33
+[11:52:06.404]   Pumping messages for window 0
+[11:52:06.404]   Pumping messages for window 1
+[11:52:06.404] Frame took 16.34ms
+[11:52:06.404] Beginning local frame 34
+[11:52:06.420]   Pumping messages for window 0
+[11:52:06.421]   Pumping messages for window 1
+[11:52:06.421] Frame took 16.85ms
+[11:52:06.421] Beginning local frame 35
+[11:52:06.437]   Pumping messages for window 0
+[11:52:06.437]   Pumping messages for window 1
+[11:52:06.437] Frame took 16.54ms
+[11:52:06.437] Beginning local frame 36
+[11:52:06.453]   Pumping messages for window 0
+[11:52:06.454]   Pumping messages for window 1
+[11:52:06.454] Frame took 16.69ms
+[11:52:06.454] Beginning local frame 37
+[11:52:06.470]   Pumping messages for window 0
+[11:52:06.471]   Pumping messages for window 1
+[11:52:06.471] Frame took 17.30ms
+[11:52:06.471] Beginning local frame 38
+[11:52:06.487]   Pumping messages for window 0
+[11:52:06.488]   Pumping messages for window 1
+[11:52:06.489] Frame took 17.34ms
+[11:52:06.489] Beginning local frame 39
+[11:52:06.503]   Pumping messages for window 0
+[11:52:06.505]   Pumping messages for window 1
+[11:52:06.506] Frame took 16.99ms
+[11:52:06.506] Beginning local frame 40
+[11:52:06.520]   Pumping messages for window 0
+[11:52:06.520]   Pumping messages for window 1
+[11:52:06.521] Frame took 14.95ms
+[11:52:06.521] Beginning local frame 41
+[11:52:06.537]   Pumping messages for window 0
+[11:52:06.537]   Pumping messages for window 1
+[11:52:06.537] Frame took 16.42ms
+[11:52:06.537] Beginning local frame 42
+[11:52:06.554]   Pumping messages for window 0
+[11:52:06.554]   Pumping messages for window 1
+[11:52:06.554] Frame took 16.86ms
+[11:52:06.554] Beginning local frame 43
+[11:52:06.570]   Pumping messages for window 0
+[11:52:06.570]   Pumping messages for window 1
+[11:52:06.570] Frame took 16.46ms
+[11:52:06.570] Beginning local frame 44
+[11:52:06.587]   Pumping messages for window 0
+[11:52:06.587]   Pumping messages for window 1
+[11:52:06.587] Frame took 16.60ms
+[11:52:06.587] Beginning local frame 45
+[11:52:06.603]   Pumping messages for window 0
+[11:52:06.604]   Pumping messages for window 1
+[11:52:06.604] Frame took 16.78ms
+[11:52:06.604] Beginning local frame 46
+[11:52:06.620]   Pumping messages for window 0
+[11:52:06.620]   Pumping messages for window 1
+[11:52:06.620] Frame took 16.43ms
+[11:52:06.620] Beginning local frame 47
+[11:52:06.637]   Pumping messages for window 0
+[11:52:06.637]   Pumping messages for window 1
+[11:52:06.637] Frame took 16.85ms
+[11:52:06.637] Beginning local frame 48
+[11:52:06.653]   Pumping messages for window 0
+[11:52:06.653]   Pumping messages for window 1
+[11:52:06.653] Frame took 16.47ms
+[11:52:06.653] Beginning local frame 49
+[11:52:06.670]   Pumping messages for window 0
+[11:52:06.670]   Pumping messages for window 1
+[11:52:06.670] Frame took 16.66ms
+[11:52:06.670] Beginning local frame 50
+[11:52:06.686]   Pumping messages for window 0
+[11:52:06.686]   Pumping messages for window 1
+[11:52:06.686] Frame took 16.42ms
+[11:52:06.687] Beginning local frame 51
+[11:52:06.703]   Pumping messages for window 0
+[11:52:06.703]   Pumping messages for window 1
+[11:52:06.703] Frame took 16.79ms
+[11:52:06.703] Beginning local frame 52
+[11:52:06.720]   Pumping messages for window 0
+[11:52:06.720]   Pumping messages for window 1
+[11:52:06.720] Frame took 16.81ms
+[11:52:06.720] Beginning local frame 53
+[11:52:06.736]   Pumping messages for window 0
+[11:52:06.737]   Pumping messages for window 1
+[11:52:06.737] Frame took 16.75ms
+[11:52:06.737] Beginning local frame 54
+[11:52:06.753]   Pumping messages for window 0
+[11:52:06.754]   Pumping messages for window 1
+[11:52:06.754] Frame took 16.82ms
+[11:52:06.754] Beginning local frame 55
+[11:52:06.770]   Pumping messages for window 0
+[11:52:06.770]   Pumping messages for window 1
+[11:52:06.770] Frame took 16.75ms
+[11:52:06.770] Beginning local frame 56
+[11:52:06.786]   Pumping messages for window 0
+[11:52:06.786]   Pumping messages for window 1
+[11:52:06.787] Frame took 16.14ms
+[11:52:06.787] Beginning local frame 57
+[11:52:06.803]   Pumping messages for window 0
+[11:52:06.803]   Pumping messages for window 1
+[11:52:06.803] Frame took 16.69ms
+[11:52:06.803] Beginning local frame 58
+[11:52:06.820]   Pumping messages for window 0
+[11:52:06.820]   Pumping messages for window 1
+[11:52:06.820] Frame took 16.53ms
+[11:52:06.820] Beginning local frame 59
+[11:52:06.836]   Pumping messages for window 0
+[11:52:06.836]   Pumping messages for window 1
+[11:52:06.836] Frame took 16.61ms
+[11:52:06.836] Beginning local frame 60
+[11:52:06.853]   Pumping messages for window 0
+[11:52:06.853]   Pumping messages for window 1
+[11:52:06.853] Frame took 16.82ms
+[11:52:06.853] Beginning local frame 61
+[11:52:06.870]   Pumping messages for window 0
+[11:52:06.870]   Pumping messages for window 1
+[11:52:06.870] Frame took 16.68ms
+[11:52:06.870] Beginning local frame 62
+[11:52:06.886]   Pumping messages for window 0
+[11:52:06.886]   Pumping messages for window 1
+[11:52:06.886] Frame took 16.57ms
+[11:52:06.886] Beginning local frame 63
+[11:52:06.903]   Pumping messages for window 0
+[11:52:06.903]   Pumping messages for window 1
+[11:52:06.903] Frame took 16.62ms
+[11:52:06.903] Beginning local frame 64
+[11:52:06.920]   Pumping messages for window 0
+[11:52:06.920]   Pumping messages for window 1
+[11:52:06.920] Frame took 16.66ms
+[11:52:06.920] Beginning local frame 65
+[11:52:06.936]   Pumping messages for window 0
+[11:52:06.936]   Pumping messages for window 1
+[11:52:06.936] Frame took 16.56ms
+[11:52:06.936] Beginning local frame 66
+[11:52:06.953]   Pumping messages for window 0
+[11:52:06.953]   Pumping messages for window 1
+[11:52:06.953] Frame took 16.76ms
+[11:52:06.953] Beginning local frame 67
+[11:52:06.970]   Pumping messages for window 0
+[11:52:06.970]   Pumping messages for window 1
+[11:52:06.970] Frame took 16.70ms
+[11:52:06.970] Beginning local frame 68
+[11:52:06.986]   Pumping messages for window 0
+[11:52:06.986]   Pumping messages for window 1
+[11:52:06.986] Frame took 16.53ms
+[11:52:06.986] Beginning local frame 69
+[11:52:07.003]   Pumping messages for window 0
+[11:52:07.003]   Pumping messages for window 1
+[11:52:07.003] Frame took 16.65ms
+[11:52:07.003] Beginning local frame 70
+[11:52:07.019]   Pumping messages for window 0
+[11:52:07.019]   Pumping messages for window 1
+[11:52:07.019] Frame took 16.51ms
+[11:52:07.019] Beginning local frame 71
+[11:52:07.036]   Pumping messages for window 0
+[11:52:07.036]   Pumping messages for window 1
+[11:52:07.036] Frame took 17.07ms
+[11:52:07.037] Beginning local frame 72
+[11:52:07.053]   Pumping messages for window 0
+[11:52:07.053]   Pumping messages for window 1
+[11:52:07.053] Frame took 16.68ms
+[11:52:07.053] Beginning local frame 73
+[11:52:07.069]   Pumping messages for window 0
+[11:52:07.070]   Pumping messages for window 1
+[11:52:07.070] Frame took 16.49ms
+[11:52:07.070] Beginning local frame 74
+[11:52:07.086]   Pumping messages for window 0
+[11:52:07.086]   Pumping messages for window 1
+[11:52:07.086] Frame took 16.25ms
+[11:52:07.086] Beginning local frame 75
+[11:52:07.102]   Pumping messages for window 0
+[11:52:07.103]   Pumping messages for window 1
+[11:52:07.103] Frame took 16.69ms
+[11:52:07.103] Beginning local frame 76
+[11:52:07.119]   Pumping messages for window 0
+[11:52:07.119]   Pumping messages for window 1
+[11:52:07.119] Frame took 16.85ms
+[11:52:07.119] Beginning local frame 77
+[11:52:07.136]   Pumping messages for window 0
+[11:52:07.136]   Pumping messages for window 1
+[11:52:07.136] Frame took 16.55ms
+[11:52:07.136] Beginning local frame 78
+[11:52:07.153]   Pumping messages for window 0
+[11:52:07.153]   Pumping messages for window 1
+[11:52:07.153] Frame took 16.70ms
+[11:52:07.153] Beginning local frame 79
+[11:52:07.169]   Pumping messages for window 0
+[11:52:07.170]   Pumping messages for window 1
+[11:52:07.170] Frame took 16.85ms
+[11:52:07.170] Beginning local frame 80
+[11:52:07.186]   Pumping messages for window 0
+[11:52:07.186]   Pumping messages for window 1
+[11:52:07.186] Frame took 16.33ms
+[11:52:07.186] Beginning local frame 81
+[11:52:07.202]   Pumping messages for window 0
+[11:52:07.202]   Pumping messages for window 1
+[11:52:07.202] Frame took 16.59ms
+[11:52:07.202] Beginning local frame 82
+[11:52:07.219]   Pumping messages for window 0
+[11:52:07.219]   Pumping messages for window 1
+[11:52:07.219] Frame took 16.77ms
+[11:52:07.219] Beginning local frame 83
+[11:52:07.236]   Pumping messages for window 0
+[11:52:07.236]   Pumping messages for window 1
+[11:52:07.236] Frame took 16.41ms
+[11:52:07.236] Beginning local frame 84
+[11:52:07.252]   Pumping messages for window 0
+[11:52:07.252]   Pumping messages for window 1
+[11:52:07.253] Frame took 16.87ms
+[11:52:07.253] Beginning local frame 85
+[11:52:07.269]   Pumping messages for window 0
+[11:52:07.269]   Pumping messages for window 1
+[11:52:07.269] Frame took 16.56ms
+[11:52:07.269] Beginning local frame 86
+[11:52:07.285]   Pumping messages for window 0
+[11:52:07.286]   Pumping messages for window 1
+[11:52:07.286] Frame took 16.53ms
+[11:52:07.286] Beginning local frame 87
+[11:52:07.302]   Pumping messages for window 0
+[11:52:07.302]   Pumping messages for window 1
+[11:52:07.302] Frame took 16.67ms
+[11:52:07.302] Beginning local frame 88
+[11:52:07.319]   Pumping messages for window 0
+[11:52:07.319]   Pumping messages for window 1
+[11:52:07.319] Frame took 16.54ms
+[11:52:07.319] Beginning local frame 89
+[11:52:07.335]   Pumping messages for window 0
+[11:52:07.335]   Pumping messages for window 1
+[11:52:07.336] Frame took 16.72ms
+[11:52:07.336] Beginning local frame 90
+[11:52:07.352]   Pumping messages for window 0
+[11:52:07.352]   Pumping messages for window 1
+[11:52:07.352] Frame took 16.62ms
+[11:52:07.352] Beginning local frame 91
+[11:52:07.369]   Pumping messages for window 0
+[11:52:07.369]   Pumping messages for window 1
+[11:52:07.369] Frame took 16.70ms
+[11:52:07.369] Beginning local frame 92
+[11:52:07.386]   Pumping messages for window 0
+[11:52:07.386]   Pumping messages for window 1
+[11:52:07.386] Frame took 16.79ms
+[11:52:07.386] Beginning local frame 93
+[11:52:07.402]   Pumping messages for window 0
+[11:52:07.402]   Pumping messages for window 1
+[11:52:07.402] Frame took 16.61ms
+[11:52:07.402] Beginning local frame 94
+[11:52:07.419]   Pumping messages for window 0
+[11:52:07.419]   Pumping messages for window 1
+[11:52:07.419] Frame took 16.48ms
+[11:52:07.419] Beginning local frame 95
+[11:52:07.435]   Pumping messages for window 0
+[11:52:07.436]   Pumping messages for window 1
+[11:52:07.436] Frame took 16.83ms
+[11:52:07.436] Beginning local frame 96
+[11:52:07.452]   Pumping messages for window 0
+[11:52:07.452]   Pumping messages for window 1
+[11:52:07.452] Frame took 16.55ms
+[11:52:07.452] Beginning local frame 97
+[11:52:07.469]   Pumping messages for window 0
+[11:52:07.469]   Pumping messages for window 1
+[11:52:07.469] Frame took 16.78ms
+[11:52:07.469] Beginning local frame 98
+[11:52:07.485]   Pumping messages for window 0
+[11:52:07.485]   Pumping messages for window 1
+[11:52:07.485] Frame took 16.42ms
+[11:52:07.485] Beginning local frame 99
+[11:52:07.502]   Pumping messages for window 0
+[11:52:07.502]   Pumping messages for window 1
+[11:52:07.502] Frame took 16.55ms
+[11:52:07.502] Beginning local frame 100
+[11:52:07.518]   Pumping messages for window 0
+[11:52:07.519]   Pumping messages for window 1
+[11:52:07.519] Frame took 16.79ms
+[11:52:07.519] Beginning local frame 101
+[11:52:07.535]   Pumping messages for window 0
+[11:52:07.535]   Pumping messages for window 1
+[11:52:07.535] Frame took 16.74ms
+[11:52:07.535] Beginning local frame 102
+[11:52:07.552]   Pumping messages for window 0
+[11:52:07.552]   Pumping messages for window 1
+[11:52:07.552] Frame took 16.48ms
+[11:52:07.552] Beginning local frame 103
+[11:52:07.568]   Pumping messages for window 0
+[11:52:07.568]   Pumping messages for window 1
+[11:52:07.568] Frame took 16.60ms
+[11:52:07.569] Beginning local frame 104
+[11:52:07.585]   Pumping messages for window 0
+[11:52:07.585]   Pumping messages for window 1
+[11:52:07.585] Frame took 16.63ms
+[11:52:07.585] Beginning local frame 105
+[11:52:07.602]   Pumping messages for window 0
+[11:52:07.602]   Pumping messages for window 1
+[11:52:07.602] Frame took 16.70ms
+[11:52:07.602] Beginning local frame 106
+[11:52:07.618]   Pumping messages for window 0
+[11:52:07.618]   Pumping messages for window 1
+[11:52:07.618] Frame took 16.60ms
+[11:52:07.619] Beginning local frame 107
+[11:52:07.635]   Pumping messages for window 0
+[11:52:07.635]   Pumping messages for window 1
+[11:52:07.635] Frame took 16.85ms
+[11:52:07.635] Beginning local frame 108
+[11:52:07.652]   Pumping messages for window 0
+[11:52:07.652]   Pumping messages for window 1
+[11:52:07.652] Frame took 16.65ms
+[11:52:07.652] Beginning local frame 109
+[11:52:07.668]   Pumping messages for window 0
+[11:52:07.668]   Pumping messages for window 1
+[11:52:07.668] Frame took 16.55ms
+[11:52:07.669] Beginning local frame 110
+[11:52:07.685]   Pumping messages for window 0
+[11:52:07.685]   Pumping messages for window 1
+[11:52:07.685] Frame took 16.53ms
+[11:52:07.685] Beginning local frame 111
+[11:52:07.702]   Pumping messages for window 0
+[11:52:07.702]   Pumping messages for window 1
+[11:52:07.702] Frame took 16.85ms
+[11:52:07.702] Beginning local frame 112
+[11:52:07.718]   Pumping messages for window 0
+[11:52:07.718]   Pumping messages for window 1
+[11:52:07.718] Frame took 16.41ms
+[11:52:07.718] Beginning local frame 113
+[11:52:07.735]   Pumping messages for window 0
+[11:52:07.735]   Pumping messages for window 1
+[11:52:07.735] Frame took 16.93ms
+[11:52:07.735] Beginning local frame 114
+[11:52:07.751]   Pumping messages for window 0
+[11:52:07.751]   Pumping messages for window 1
+[11:52:07.752] Frame took 16.32ms
+[11:52:07.752] Beginning local frame 115
+[11:52:07.768]   Pumping messages for window 0
+[11:52:07.768]   Pumping messages for window 1
+[11:52:07.768] Frame took 16.64ms
+[11:52:07.768] Beginning local frame 116
+[11:52:07.785]   Pumping messages for window 0
+[11:52:07.785]   Pumping messages for window 1
+[11:52:07.786] Frame took 17.37ms
+[11:52:07.786] Beginning local frame 117
+[11:52:07.801]   Pumping messages for window 0
+[11:52:07.802]   Pumping messages for window 1
+[11:52:07.802] Frame took 16.22ms
+[11:52:07.802] Beginning local frame 118
+[11:52:07.818]   Pumping messages for window 0
+[11:52:07.818]   Pumping messages for window 1
+[11:52:07.818] Frame took 16.54ms
+[11:52:07.818] Beginning local frame 119
+[11:52:07.835]   Pumping messages for window 0
+[11:52:07.835]   Pumping messages for window 1
+[11:52:07.835] Frame took 16.54ms
+[11:52:07.835] Beginning local frame 120
+[11:52:07.852]   Pumping messages for window 0
+[11:52:07.852]   Pumping messages for window 1
+[11:52:07.852] Frame took 16.81ms
+[11:52:07.852] Beginning local frame 121
+[11:52:07.868]   Pumping messages for window 0
+[11:52:07.868]   Pumping messages for window 1
+[11:52:07.868] Frame took 16.43ms
+[11:52:07.868] Beginning local frame 122
+[11:52:07.884]   Pumping messages for window 0
+[11:52:07.885]   Pumping messages for window 1
+[11:52:07.885] Frame took 16.55ms
+[11:52:07.885] Beginning local frame 123
+[11:52:07.901]   Pumping messages for window 0
+[11:52:07.901]   Pumping messages for window 1
+[11:52:07.901] Frame took 16.78ms
+[11:52:07.901] Beginning local frame 124
+[11:52:07.918]   Pumping messages for window 0
+[11:52:07.918]   Pumping messages for window 1
+[11:52:07.918] Frame took 16.82ms
+[11:52:07.918] Beginning local frame 125
+[11:52:07.934]   Pumping messages for window 0
+[11:52:07.935]   Pumping messages for window 1
+[11:52:07.935] Frame took 16.40ms
+[11:52:07.935] Beginning local frame 126
+[11:52:07.951]   Pumping messages for window 0
+[11:52:07.951]   Pumping messages for window 1
+[11:52:07.951] Frame took 16.84ms
+[11:52:07.951] Beginning local frame 127
+[11:52:07.968]   Pumping messages for window 0
+[11:52:07.968]   Pumping messages for window 1
+[11:52:07.968] Frame took 16.32ms
+[11:52:07.968] Beginning local frame 128
+[11:52:07.984]   Pumping messages for window 0
+[11:52:07.985]   Pumping messages for window 1
+[11:52:07.985] Frame took 16.87ms
+[11:52:07.985] Beginning local frame 129
+[11:52:08.001]   Pumping messages for window 0
+[11:52:08.001]   Pumping messages for window 1
+[11:52:08.001] Frame took 16.39ms
+[11:52:08.001] Beginning local frame 130
+[11:52:08.018]   Pumping messages for window 0
+[11:52:08.018]   Pumping messages for window 1
+[11:52:08.018] Frame took 16.71ms
+[11:52:08.018] Beginning local frame 131
+[11:52:08.034]   Pumping messages for window 0
+[11:52:08.035]   Pumping messages for window 1
+[11:52:08.035] Frame took 16.99ms
+[11:52:08.035] Beginning local frame 132
+[11:52:08.051]   Pumping messages for window 0
+[11:52:08.051]   Pumping messages for window 1
+[11:52:08.051] Frame took 16.26ms
+[11:52:08.051] Beginning local frame 133
+[11:52:08.068]   Pumping messages for window 0
+[11:52:08.068]   Pumping messages for window 1
+[11:52:08.068] Frame took 16.67ms
+[11:52:08.068] Beginning local frame 134
+[11:52:08.084]   Pumping messages for window 0
+[11:52:08.084]   Pumping messages for window 1
+[11:52:08.084] Frame took 16.67ms
+[11:52:08.084] Beginning local frame 135
+[11:52:08.101]   Pumping messages for window 0
+[11:52:08.101]   Pumping messages for window 1
+[11:52:08.101] Frame took 16.66ms
+[11:52:08.101] Beginning local frame 136
+[11:52:08.117]   Pumping messages for window 0
+[11:52:08.118]   Pumping messages for window 1
+[11:52:08.118] Frame took 16.59ms
+[11:52:08.118] Beginning local frame 137
+[11:52:08.134]   Pumping messages for window 0
+[11:52:08.134]   Pumping messages for window 1
+[11:52:08.134] Frame took 16.91ms
+[11:52:08.135] Beginning local frame 138
+[11:52:08.151]   Pumping messages for window 0
+[11:52:08.151]   Pumping messages for window 1
+[11:52:08.151] Frame took 16.54ms
+[11:52:08.151] Beginning local frame 139
+[11:52:08.167]   Pumping messages for window 0
+[11:52:08.168]   Pumping messages for window 1
+[11:52:08.168] Frame took 16.50ms
+[11:52:08.168] Beginning local frame 140
+[11:52:08.184]   Pumping messages for window 0
+[11:52:08.184]   Pumping messages for window 1
+[11:52:08.185] Frame took 17.07ms
+[11:52:08.185] Beginning local frame 141
+[11:52:08.201]   Pumping messages for window 0
+[11:52:08.201]   Pumping messages for window 1
+[11:52:08.201] Frame took 16.49ms
+[11:52:08.201] Beginning local frame 142
+[11:52:08.217]   Pumping messages for window 0
+[11:52:08.218]   Pumping messages for window 1
+[11:52:08.218] Frame took 16.45ms
+[11:52:08.218] Beginning local frame 143
+[11:52:08.234]   Pumping messages for window 0
+[11:52:08.234]   Pumping messages for window 1
+[11:52:08.234] Frame took 16.57ms
+[11:52:08.234] Beginning local frame 144
+[11:52:08.251]   Pumping messages for window 0
+[11:52:08.251]   Pumping messages for window 1
+[11:52:08.251] Frame took 16.76ms
+[11:52:08.251] Beginning local frame 145
+[11:52:08.267]   Pumping messages for window 0
+[11:52:08.268]   Pumping messages for window 1
+[11:52:08.268] Frame took 16.71ms
+[11:52:08.268] Beginning local frame 146
+[11:52:08.284]   Pumping messages for window 0
+[11:52:08.284]   Pumping messages for window 1
+[11:52:08.285] Frame took 17.11ms
+[11:52:08.285] Beginning local frame 147
+[11:52:08.300]   Pumping messages for window 0
+[11:52:08.301]   Pumping messages for window 1
+[11:52:08.301] Frame took 15.97ms
+[11:52:08.301] Beginning local frame 148
+[11:52:08.317]   Pumping messages for window 0
+[11:52:08.317]   Pumping messages for window 1
+[11:52:08.317] Frame took 16.56ms
+[11:52:08.317] Beginning local frame 149
+[11:52:08.334]   Pumping messages for window 0
+[11:52:08.334]   Pumping messages for window 1
+[11:52:08.334] Frame took 16.74ms
+[11:52:08.334] Beginning local frame 150
+[11:52:08.350]   Pumping messages for window 0
+[11:52:08.351]   Pumping messages for window 1
+[11:52:08.351] Frame took 16.69ms
+[11:52:08.351] Beginning local frame 151
+[11:52:08.367]   Pumping messages for window 0
+[11:52:08.367]   Pumping messages for window 1
+[11:52:08.367] Frame took 16.67ms
+[11:52:08.367] Beginning local frame 152
+[11:52:08.384]   Pumping messages for window 0
+[11:52:08.384]   Pumping messages for window 1
+[11:52:08.384] Frame took 16.57ms
+[11:52:08.384] Beginning local frame 153
+[11:52:08.400]   Pumping messages for window 0
+[11:52:08.401]   Pumping messages for window 1
+[11:52:08.401] Frame took 16.70ms
+[11:52:08.401] Beginning local frame 154
+[11:52:08.417]   Pumping messages for window 0
+[11:52:08.417]   Pumping messages for window 1
+[11:52:08.417] Frame took 16.46ms
+[11:52:08.417] Beginning local frame 155
+[11:52:08.434]   Pumping messages for window 0
+[11:52:08.434]   Pumping messages for window 1
+[11:52:08.434] Frame took 16.72ms
+[11:52:08.434] Beginning local frame 156
+[11:52:08.450]   Pumping messages for window 0
+[11:52:08.450]   Pumping messages for window 1
+[11:52:08.450] Frame took 16.70ms
+[11:52:08.451] Beginning local frame 157
+[11:52:08.467]   Pumping messages for window 0
+[11:52:08.467]   Pumping messages for window 1
+[11:52:08.467] Frame took 16.69ms
+[11:52:08.467] Beginning local frame 158
+[11:52:08.484]   Pumping messages for window 0
+[11:52:08.484]   Pumping messages for window 1
+[11:52:08.484] Frame took 16.76ms
+[11:52:08.484] Beginning local frame 159
+[11:52:08.500]   Pumping messages for window 0
+[11:52:08.500]   Pumping messages for window 1
+[11:52:08.500] Frame took 16.37ms
+[11:52:08.500] Beginning local frame 160
+[11:52:08.517]   Pumping messages for window 0
+[11:52:08.517]   Pumping messages for window 1
+[11:52:08.517] Frame took 16.70ms
+[11:52:08.517] Beginning local frame 161
+[11:52:08.534]   Pumping messages for window 0
+[11:52:08.534]   Pumping messages for window 1
+[11:52:08.534] Frame took 16.67ms
+[11:52:08.534] Beginning local frame 162
+[11:52:08.550]   Pumping messages for window 0
+[11:52:08.550]   Pumping messages for window 1
+[11:52:08.550] Frame took 16.51ms
+[11:52:08.550] Beginning local frame 163
+[11:52:08.567]   Pumping messages for window 0
+[11:52:08.567]   Pumping messages for window 1
+[11:52:08.567] Frame took 16.70ms
+[11:52:08.567] Beginning local frame 164
+[11:52:08.583]   Pumping messages for window 0
+[11:52:08.584]   Pumping messages for window 1
+[11:52:08.584] Frame took 16.73ms
+[11:52:08.584] Beginning local frame 165
+[11:52:08.600]   Pumping messages for window 0
+[11:52:08.600]   Pumping messages for window 1
+[11:52:08.600] Frame took 16.66ms
+[11:52:08.600] Beginning local frame 166
+[11:52:08.617]   Pumping messages for window 0
+[11:52:08.617]   Pumping messages for window 1
+[11:52:08.617] Frame took 16.50ms
+[11:52:08.617] Beginning local frame 167
+[11:52:08.633]   Pumping messages for window 0
+[11:52:08.633]   Pumping messages for window 1
+[11:52:08.633] Frame took 16.67ms
+[11:52:08.633] Beginning local frame 168
+[11:52:08.650]   Pumping messages for window 0
+[11:52:08.650]   Pumping messages for window 1
+[11:52:08.650] Frame took 16.71ms
+[11:52:08.650] Beginning local frame 169
+[11:52:08.667]   Pumping messages for window 0
+[11:52:08.667]   Pumping messages for window 1
+[11:52:08.667] Frame took 16.79ms
+[11:52:08.667] Beginning local frame 170
+[11:52:08.683]   Pumping messages for window 0
+[11:52:08.684]   Pumping messages for window 1
+[11:52:08.684] Frame took 16.65ms
+[11:52:08.684] Beginning local frame 171
+[11:52:08.700]   Pumping messages for window 0
+[11:52:08.700]   Pumping messages for window 1
+[11:52:08.700] Frame took 16.61ms
+[11:52:08.700] Beginning local frame 172
+[11:52:08.717]   Pumping messages for window 0
+[11:52:08.717]   Pumping messages for window 1
+[11:52:08.717] Frame took 16.59ms
+[11:52:08.717] Beginning local frame 173
+[11:52:08.733]   Pumping messages for window 0
+[11:52:08.733]   Pumping messages for window 1
+[11:52:08.733] Frame took 16.64ms
+[11:52:08.733] Beginning local frame 174
+[11:52:08.750]   Pumping messages for window 0
+[11:52:08.750]   Pumping messages for window 1
+[11:52:08.750] Frame took 16.67ms
+[11:52:08.750] Beginning local frame 175
+[11:52:08.767]   Pumping messages for window 0
+[11:52:08.767]   Pumping messages for window 1
+[11:52:08.767] Frame took 16.69ms
+[11:52:08.767] Beginning local frame 176
+[11:52:08.783]   Pumping messages for window 0
+[11:52:08.783]   Pumping messages for window 1
+[11:52:08.783] Frame took 16.65ms
+[11:52:08.783] Beginning local frame 177
+[11:52:08.800]   Pumping messages for window 0
+[11:52:08.800]   Pumping messages for window 1
+[11:52:08.800] Frame took 17.03ms
+[11:52:08.801] Beginning local frame 178
+[11:52:08.816]   Pumping messages for window 0
+[11:52:08.817]   Pumping messages for window 1
+[11:52:08.817] Frame took 16.11ms
+[11:52:08.817] Beginning local frame 179
+[11:52:08.833]   Pumping messages for window 0
+[11:52:08.833]   Pumping messages for window 1
+[11:52:08.833] Frame took 16.64ms
+[11:52:08.833] Beginning local frame 180
+[11:52:08.850]   Pumping messages for window 0
+[11:52:08.850]   Pumping messages for window 1
+[11:52:08.850] Frame took 16.72ms
+[11:52:08.850] Beginning local frame 181
+[11:52:08.866]   Pumping messages for window 0
+[11:52:08.867]   Pumping messages for window 1
+[11:52:08.867] Frame took 16.74ms
+[11:52:08.867] Beginning local frame 182
+[11:52:08.883]   Pumping messages for window 0
+[11:52:08.883]   Pumping messages for window 1
+[11:52:08.883] Frame took 16.58ms
+[11:52:08.883] Beginning local frame 183
+[11:52:08.900]   Pumping messages for window 0
+[11:52:08.900]   Pumping messages for window 1
+[11:52:08.900] Frame took 16.59ms
+[11:52:08.900] Beginning local frame 184
+[11:52:08.916]   Pumping messages for window 0
+[11:52:08.916]   Pumping messages for window 1
+[11:52:08.916] Frame took 16.65ms
+[11:52:08.917] Beginning local frame 185
+[11:52:08.933]   Pumping messages for window 0
+[11:52:08.933]   Pumping messages for window 1
+[11:52:08.933] Frame took 16.81ms
+[11:52:08.933] Beginning local frame 186
+[11:52:08.950]   Pumping messages for window 0
+[11:52:08.950]   Pumping messages for window 1
+[11:52:08.950] Frame took 16.55ms
+[11:52:08.950] Beginning local frame 187
+[11:52:08.966]   Pumping messages for window 0
+[11:52:08.966]   Pumping messages for window 1
+[11:52:08.966] Frame took 16.62ms
+[11:52:08.967] Beginning local frame 188
+[11:52:08.983]   Pumping messages for window 0
+[11:52:08.983]   Pumping messages for window 1
+[11:52:08.983] Frame took 16.67ms
+[11:52:08.983] Beginning local frame 189
+[11:52:09.000]   Pumping messages for window 0
+[11:52:09.000]   Pumping messages for window 1
+[11:52:09.000] Frame took 16.60ms
+[11:52:09.000] Beginning local frame 190
+[11:52:09.016]   Pumping messages for window 0
+[11:52:09.016]   Pumping messages for window 1
+[11:52:09.016] Frame took 16.70ms
+[11:52:09.016] Beginning local frame 191
+[11:52:09.033]   Pumping messages for window 0
+[11:52:09.033]   Pumping messages for window 1
+[11:52:09.033] Frame took 16.90ms
+[11:52:09.033] Beginning local frame 192
+[11:52:09.049]   Pumping messages for window 0
+[11:52:09.049]   Pumping messages for window 1
+[11:52:09.050] Frame took 16.22ms
+[11:52:09.050] Beginning local frame 193
+[11:52:09.066]   Pumping messages for window 0
+[11:52:09.066]   Pumping messages for window 1
+[11:52:09.066] Frame took 16.55ms
+[11:52:09.066] Beginning local frame 194
+[11:52:09.083]   Pumping messages for window 0
+[11:52:09.083]   Pumping messages for window 1
+[11:52:09.083] Frame took 16.82ms
+[11:52:09.083] Beginning local frame 195
+[11:52:09.099]   Pumping messages for window 0
+[11:52:09.099]   Pumping messages for window 1
+[11:52:09.099] Frame took 16.36ms
+[11:52:09.099] Beginning local frame 196
+[11:52:09.116]   Pumping messages for window 0
+[11:52:09.116]   Pumping messages for window 1
+[11:52:09.116] Frame took 16.60ms
+[11:52:09.116] Beginning local frame 197
+[11:52:09.133]   Pumping messages for window 0
+[11:52:09.133]   Pumping messages for window 1
+[11:52:09.133] Frame took 16.90ms
+[11:52:09.133] Beginning local frame 198
+[11:52:09.149]   Pumping messages for window 0
+[11:52:09.149]   Pumping messages for window 1
+[11:52:09.149] Frame took 16.61ms
+[11:52:09.149] Beginning local frame 199
+[11:52:09.166]   Pumping messages for window 0
+[11:52:09.166]   Pumping messages for window 1
+[11:52:09.166] Frame took 16.64ms
+[11:52:09.166] Beginning local frame 200
+[11:52:09.183]   Pumping messages for window 0
+[11:52:09.183]   Pumping messages for window 1
+[11:52:09.183] Frame took 16.66ms
+[11:52:09.183] Beginning local frame 201
+[11:52:09.199]   Pumping messages for window 0
+[11:52:09.200]   Pumping messages for window 1
+[11:52:09.200] Frame took 16.95ms
+[11:52:09.200] Beginning local frame 202
+[11:52:09.216]   Pumping messages for window 0
+[11:52:09.216]   Pumping messages for window 1
+[11:52:09.216] Frame took 16.24ms
+[11:52:09.216] Beginning local frame 203
+[11:52:09.232]   Pumping messages for window 0
+[11:52:09.233]   Pumping messages for window 1
+[11:52:09.233] Frame took 16.73ms
+[11:52:09.233] Beginning local frame 204
+[11:52:09.249]   Pumping messages for window 0
+[11:52:09.249]   Pumping messages for window 1
+[11:52:09.249] Frame took 16.59ms
+[11:52:09.249] Beginning local frame 205
+[11:52:09.266]   Pumping messages for window 0
+[11:52:09.267]   Pumping messages for window 1
+[11:52:09.268] Frame took 18.57ms
+[11:52:09.268] Beginning local frame 206
+[11:52:09.282]   Pumping messages for window 0
+[11:52:09.282]   Pumping messages for window 1
+[11:52:09.283] Frame took 14.72ms
+[11:52:09.283] Beginning local frame 207
+[11:52:09.299]   Pumping messages for window 0
+[11:52:09.299]   Pumping messages for window 1
+[11:52:09.300] Frame took 17.06ms
+[11:52:09.300] Beginning local frame 208
+[11:52:09.316]   Pumping messages for window 0
+[11:52:09.316]   Pumping messages for window 1
+[11:52:09.316] Frame took 16.21ms
+[11:52:09.316] Beginning local frame 209
+[11:52:09.332]   Pumping messages for window 0
+[11:52:09.332]   Pumping messages for window 1
+[11:52:09.332] Frame took 16.66ms
+[11:52:09.332] Beginning local frame 210
+[11:52:09.349]   Pumping messages for window 0
+[11:52:09.349]   Pumping messages for window 1
+[11:52:09.349] Frame took 16.71ms
+[11:52:09.349] Beginning local frame 211
+[11:52:09.366]   Pumping messages for window 0
+[11:52:09.366]   Pumping messages for window 1
+[11:52:09.366] Frame took 16.52ms
+[11:52:09.366] Beginning local frame 212
+[11:52:09.382]   Pumping messages for window 0
+[11:52:09.382]   Pumping messages for window 1
+[11:52:09.383] Frame took 16.84ms
+[11:52:09.383] Beginning local frame 213
+[11:52:09.399]   Pumping messages for window 0
+[11:52:09.399]   Pumping messages for window 1
+[11:52:09.399] Frame took 16.47ms
+[11:52:09.399] Beginning local frame 214
+[11:52:09.415]   Pumping messages for window 0
+[11:52:09.415]   Pumping messages for window 1
+[11:52:09.415] Frame took 16.49ms
+[11:52:09.415] Beginning local frame 215
+[11:52:09.432]   Pumping messages for window 0
+[11:52:09.432]   Pumping messages for window 1
+[11:52:09.432] Frame took 16.84ms
+[11:52:09.432] Beginning local frame 216
+[11:52:09.449]   Pumping messages for window 0
+[11:52:09.449]   Pumping messages for window 1
+[11:52:09.449] Frame took 16.57ms
+[11:52:09.449] Beginning local frame 217
+[11:52:09.465]   Pumping messages for window 0
+[11:52:09.465]   Pumping messages for window 1
+[11:52:09.465] Frame took 16.48ms
+[11:52:09.465] Beginning local frame 218
+[11:52:09.482]   Pumping messages for window 0
+[11:52:09.482]   Pumping messages for window 1
+[11:52:09.482] Frame took 16.76ms
+[11:52:09.482] Beginning local frame 219
+[11:52:09.499]   Pumping messages for window 0
+[11:52:09.499]   Pumping messages for window 1
+[11:52:09.499] Frame took 16.87ms
+[11:52:09.499] Beginning local frame 220
+[11:52:09.515]   Pumping messages for window 0
+[11:52:09.515]   Pumping messages for window 1
+[11:52:09.515] Frame took 16.26ms
+[11:52:09.515] Beginning local frame 221
+[11:52:09.532]   Pumping messages for window 0
+[11:52:09.532]   Pumping messages for window 1
+[11:52:09.532] Frame took 17.00ms
+[11:52:09.532] Beginning local frame 222
+[11:52:09.548]   Pumping messages for window 0
+[11:52:09.549]   Pumping messages for window 1
+[11:52:09.549] Frame took 16.39ms
+[11:52:09.549] Beginning local frame 223
+[11:52:09.565]   Pumping messages for window 0
+[11:52:09.565]   Pumping messages for window 1
+[11:52:09.566] Frame took 16.88ms
+[11:52:09.566] Beginning local frame 224
+[11:52:09.582]   Pumping messages for window 0
+[11:52:09.582]   Pumping messages for window 1
+[11:52:09.582] Frame took 16.60ms
+[11:52:09.582] Beginning local frame 225
+[11:52:09.599]   Pumping messages for window 0
+[11:52:09.599]   Pumping messages for window 1
+[11:52:09.599] Frame took 16.54ms
+[11:52:09.599] Beginning local frame 226
+[11:52:09.615]   Pumping messages for window 0
+[11:52:09.615]   Pumping messages for window 1
+[11:52:09.615] Frame took 16.66ms
+[11:52:09.615] Beginning local frame 227
+[11:52:09.632]   Pumping messages for window 0
+[11:52:09.632]   Pumping messages for window 1
+[11:52:09.632] Frame took 16.73ms
+[11:52:09.632] Beginning local frame 228
+[11:52:09.648]   Pumping messages for window 0
+[11:52:09.648]   Pumping messages for window 1
+[11:52:09.649] Frame took 16.48ms
+[11:52:09.649] Beginning local frame 229
+[11:52:09.665]   Pumping messages for window 0
+[11:52:09.665]   Pumping messages for window 1
+[11:52:09.665] Frame took 16.74ms
+[11:52:09.665] Beginning local frame 230
+[11:52:09.682]   Pumping messages for window 0
+[11:52:09.682]   Pumping messages for window 1
+[11:52:09.682] Frame took 16.90ms
+[11:52:09.682] Beginning local frame 231
+[11:52:09.699]   Pumping messages for window 0
+[11:52:09.699]   Pumping messages for window 1
+[11:52:09.699] Frame took 16.79ms
+[11:52:09.699] Beginning local frame 232
+[11:52:09.715]   Pumping messages for window 0
+[11:52:09.715]   Pumping messages for window 1
+[11:52:09.715] Frame took 16.27ms
+[11:52:09.715] Beginning local frame 233
+[11:52:09.732]   Pumping messages for window 0
+[11:52:09.732]   Pumping messages for window 1
+[11:52:09.732] Frame took 16.56ms
+[11:52:09.732] Beginning local frame 234
+[11:52:09.748]   Pumping messages for window 0
+[11:52:09.748]   Pumping messages for window 1
+[11:52:09.748] Frame took 16.66ms
+[11:52:09.748] Beginning local frame 235
+[11:52:09.765]   Pumping messages for window 0
+[11:52:09.765]   Pumping messages for window 1
+[11:52:09.765] Frame took 16.53ms
+[11:52:09.765] Beginning local frame 236
+[11:52:09.782]   Pumping messages for window 0
+[11:52:09.782]   Pumping messages for window 1
+[11:52:09.783] Frame took 17.59ms
+[11:52:09.783] Beginning local frame 237
+[11:52:09.798]   Pumping messages for window 0
+[11:52:09.798]   Pumping messages for window 1
+[11:52:09.798] Frame took 15.74ms
+[11:52:09.798] Beginning local frame 238
+[11:52:09.815]   Pumping messages for window 0
+[11:52:09.815]   Pumping messages for window 1
+[11:52:09.815] Frame took 16.71ms
+[11:52:09.815] Beginning local frame 239
+[11:52:09.832]   Pumping messages for window 0
+[11:52:09.832]   Pumping messages for window 1
+[11:52:09.832] Frame took 16.73ms
+[11:52:09.832] Beginning local frame 240
+[11:52:09.848]   Pumping messages for window 0
+[11:52:09.848]   Pumping messages for window 1
+[11:52:09.848] Frame took 16.57ms
+[11:52:09.848] Beginning local frame 241
+[11:52:09.865]   Pumping messages for window 0
+[11:52:09.865]   Pumping messages for window 1
+[11:52:09.865] Frame took 16.64ms
+[11:52:09.865] Beginning local frame 242
+[11:52:09.882]   Pumping messages for window 0
+[11:52:09.882]   Pumping messages for window 1
+[11:52:09.882] Frame took 16.75ms
+[11:52:09.882] Beginning local frame 243
+[11:52:09.898]   Pumping messages for window 0
+[11:52:09.898]   Pumping messages for window 1
+[11:52:09.898] Frame took 16.60ms
+[11:52:09.898] Beginning local frame 244
+[11:52:09.915]   Pumping messages for window 0
+[11:52:09.915]   Pumping messages for window 1
+[11:52:09.915] Frame took 16.39ms
+[11:52:09.915] Beginning local frame 245
+[11:52:09.931]   Pumping messages for window 0
+[11:52:09.931]   Pumping messages for window 1
+[11:52:09.931] Frame took 16.66ms
+[11:52:09.931] Beginning local frame 246
+[11:52:09.948]   Pumping messages for window 0
+[11:52:09.948]   Pumping messages for window 1
+[11:52:09.948] Frame took 16.90ms
+[11:52:09.948] Beginning local frame 247
+[11:52:09.965]   Pumping messages for window 0
+[11:52:09.965]   Pumping messages for window 1
+[11:52:09.965] Frame took 16.57ms
+[11:52:09.965] Beginning local frame 248
+[11:52:09.981]   Pumping messages for window 0
+[11:52:09.981]   Pumping messages for window 1
+[11:52:09.981] Frame took 16.62ms
+[11:52:09.981] Beginning local frame 249
+[11:52:09.998]   Pumping messages for window 0
+[11:52:09.998]   Pumping messages for window 1
+[11:52:09.998] Frame took 16.60ms
+[11:52:09.998] Beginning local frame 250
+[11:52:10.014]   Pumping messages for window 0
+[11:52:10.015]   Pumping messages for window 1
+[11:52:10.015] Frame took 16.68ms
+[11:52:10.015] Beginning local frame 251
+[11:52:10.031]   Pumping messages for window 0
+[11:52:10.031]   Pumping messages for window 1
+[11:52:10.031] Frame took 16.40ms
+[11:52:10.031] Beginning local frame 252
+[11:52:10.048]   Pumping messages for window 0
+[11:52:10.048]   Pumping messages for window 1
+[11:52:10.048] Frame took 16.70ms
+[11:52:10.048] Beginning local frame 253
+[11:52:10.065]   Pumping messages for window 0
+[11:52:10.065]   Pumping messages for window 1
+[11:52:10.065] Frame took 16.97ms
+[11:52:10.065] Beginning local frame 254
+[11:52:10.081]   Pumping messages for window 0
+[11:52:10.081]   Pumping messages for window 1
+[11:52:10.081] Frame took 16.56ms
+[11:52:10.081] Beginning local frame 255
+[11:52:10.098]   Pumping messages for window 0
+[11:52:10.098]   Pumping messages for window 1
+[11:52:10.098] Frame took 16.51ms
+[11:52:10.098] Beginning local frame 256
+[11:52:10.114]   Pumping messages for window 0
+[11:52:10.115]   Pumping messages for window 1
+[11:52:10.115] Frame took 16.73ms
+[11:52:10.115] Beginning local frame 257
+[11:52:10.131]   Pumping messages for window 0
+[11:52:10.131]   Pumping messages for window 1
+[11:52:10.131] Frame took 16.59ms
+[11:52:10.131] Beginning local frame 258
+[11:52:10.147]   Pumping messages for window 0
+[11:52:10.148]   Pumping messages for window 1
+[11:52:10.148] Frame took 16.45ms
+[11:52:10.148] Beginning local frame 259
+[11:52:10.164]   Pumping messages for window 0
+[11:52:10.164]   Pumping messages for window 1
+[11:52:10.164] Frame took 16.75ms
+[11:52:10.164] Beginning local frame 260
+[11:52:10.181]   Pumping messages for window 0
+[11:52:10.181]   Pumping messages for window 1
+[11:52:10.181] Frame took 16.60ms
+[11:52:10.181] Beginning local frame 261
+[11:52:10.197]   Pumping messages for window 0
+[11:52:10.197]   Pumping messages for window 1
+[11:52:10.198] Frame took 16.53ms
+[11:52:10.198] Beginning local frame 262
+[11:52:10.214]   Pumping messages for window 0
+[11:52:10.214]   Pumping messages for window 1
+[11:52:10.214] Frame took 16.82ms
+[11:52:10.214] Beginning local frame 263
+[11:52:10.231]   Pumping messages for window 0
+[11:52:10.231]   Pumping messages for window 1
+[11:52:10.231] Frame took 16.66ms
+[11:52:10.231] Beginning local frame 264
+[11:52:10.248]   Pumping messages for window 0
+[11:52:10.248]   Pumping messages for window 1
+[11:52:10.248] Frame took 16.82ms
+[11:52:10.248] Beginning local frame 265
+[11:52:10.264]   Pumping messages for window 0
+[11:52:10.265]   Pumping messages for window 1
+[11:52:10.265] Frame took 17.00ms
+[11:52:10.265] Beginning local frame 266
+[11:52:10.281]   Pumping messages for window 0
+[11:52:10.281]   Pumping messages for window 1
+[11:52:10.281] Frame took 16.11ms
+[11:52:10.281] Beginning local frame 267
+[11:52:10.297]   Pumping messages for window 0
+[11:52:10.297]   Pumping messages for window 1
+[11:52:10.298] Frame took 16.70ms
+[11:52:10.298] Beginning local frame 268
+[11:52:10.314]   Pumping messages for window 0
+[11:52:10.314]   Pumping messages for window 1
+[11:52:10.314] Frame took 16.46ms
+[11:52:10.314] Beginning local frame 269
+[11:52:10.331]   Pumping messages for window 0
+[11:52:10.331]   Pumping messages for window 1
+[11:52:10.331] Frame took 16.69ms
+[11:52:10.331] Beginning local frame 270
+[11:52:10.347]   Pumping messages for window 0
+[11:52:10.347]   Pumping messages for window 1
+[11:52:10.347] Frame took 16.64ms
+[11:52:10.347] Beginning local frame 271
+[11:52:10.364]   Pumping messages for window 0
+[11:52:10.364]   Pumping messages for window 1
+[11:52:10.364] Frame took 16.74ms
+[11:52:10.364] Beginning local frame 272
+[11:52:10.381]   Pumping messages for window 0
+[11:52:10.381]   Pumping messages for window 1
+[11:52:10.381] Frame took 16.64ms
+[11:52:10.381] Beginning local frame 273
+[11:52:10.397]   Pumping messages for window 0
+[11:52:10.397]   Pumping messages for window 1
+[11:52:10.397] Frame took 16.46ms
+[11:52:10.397] Beginning local frame 274
+[11:52:10.414]   Pumping messages for window 0
+[11:52:10.414]   Pumping messages for window 1
+[11:52:10.414] Frame took 16.81ms
+[11:52:10.414] Beginning local frame 275
+[11:52:10.430]   Pumping messages for window 0
+[11:52:10.431]   Pumping messages for window 1
+[11:52:10.431] Frame took 16.53ms
+[11:52:10.431] Beginning local frame 276
+[11:52:10.447]   Pumping messages for window 0
+[11:52:10.447]   Pumping messages for window 1
+[11:52:10.447] Frame took 16.70ms
+[11:52:10.447] Beginning local frame 277
+[11:52:10.464]   Pumping messages for window 0
+[11:52:10.464]   Pumping messages for window 1
+[11:52:10.464] Frame took 16.61ms
+[11:52:10.464] Beginning local frame 278
+[11:52:10.480]   Pumping messages for window 0
+[11:52:10.481]   Pumping messages for window 1
+[11:52:10.481] Frame took 16.71ms
+[11:52:10.481] Beginning local frame 279
+[11:52:10.497]   Pumping messages for window 0
+[11:52:10.497]   Pumping messages for window 1
+[11:52:10.497] Frame took 16.71ms
+[11:52:10.497] Beginning local frame 280
+[11:52:10.514]   Pumping messages for window 0
+[11:52:10.514]   Pumping messages for window 1
+[11:52:10.514] Frame took 16.38ms
+[11:52:10.514] Beginning local frame 281
+[11:52:10.530]   Pumping messages for window 0
+[11:52:10.531]   Pumping messages for window 1
+[11:52:10.531] Frame took 16.89ms
+[11:52:10.531] Beginning local frame 282
+[11:52:10.547]   Pumping messages for window 0
+[11:52:10.547]   Pumping messages for window 1
+[11:52:10.547] Frame took 16.47ms
+[11:52:10.547] Beginning local frame 283
+[11:52:10.564]   Pumping messages for window 0
+[11:52:10.564]   Pumping messages for window 1
+[11:52:10.564] Frame took 16.70ms
+[11:52:10.564] Beginning local frame 284
+[11:52:10.580]   Pumping messages for window 0
+[11:52:10.580]   Pumping messages for window 1
+[11:52:10.580] Frame took 16.63ms
+[11:52:10.580] Beginning local frame 285
+[11:52:10.597]   Pumping messages for window 0
+[11:52:10.597]   Pumping messages for window 1
+[11:52:10.597] Frame took 16.57ms
+[11:52:10.597] Beginning local frame 286
+[11:52:10.614]   Pumping messages for window 0
+[11:52:10.614]   Pumping messages for window 1
+[11:52:10.614] Frame took 16.74ms
+[11:52:10.614] Beginning local frame 287
+[11:52:10.630]   Pumping messages for window 0
+[11:52:10.630]   Pumping messages for window 1
+[11:52:10.630] Frame took 16.46ms
+[11:52:10.630] Beginning local frame 288
+[11:52:10.647]   Pumping messages for window 0
+[11:52:10.647]   Pumping messages for window 1
+[11:52:10.647] Frame took 16.80ms
+[11:52:10.647] Beginning local frame 289
+[11:52:10.663]   Pumping messages for window 0
+[11:52:10.663]   Pumping messages for window 1
+[11:52:10.664] Frame took 16.56ms
+[11:52:10.664] Beginning local frame 290
+[11:52:10.680]   Pumping messages for window 0
+[11:52:10.680]   Pumping messages for window 1
+[11:52:10.680] Frame took 16.83ms
+[11:52:10.680] Beginning local frame 291
+[11:52:10.697]   Pumping messages for window 0
+[11:52:10.697]   Pumping messages for window 1
+[11:52:10.697] Frame took 16.39ms
+[11:52:10.697] Beginning local frame 292
+[11:52:10.714]   Pumping messages for window 0
+[11:52:10.714]   Pumping messages for window 1
+[11:52:10.714] Frame took 16.96ms
+[11:52:10.714] Beginning local frame 293
+[11:52:10.730]   Pumping messages for window 0
+[11:52:10.730]   Pumping messages for window 1
+[11:52:10.731] Frame took 16.94ms
+[11:52:10.731] Beginning local frame 294
+[11:52:10.747]   Pumping messages for window 0
+[11:52:10.747]   Pumping messages for window 1
+[11:52:10.747] Frame took 16.40ms
+[11:52:10.747] Beginning local frame 295
+[11:52:10.763]   Pumping messages for window 0
+[11:52:10.764]   Pumping messages for window 1
+[11:52:10.764] Frame took 16.63ms
+[11:52:10.764] Beginning local frame 296
+[11:52:10.780]   Pumping messages for window 0
+[11:52:10.780]   Pumping messages for window 1
+[11:52:10.780] Frame took 16.45ms
+[11:52:10.780] Beginning local frame 297
+[11:52:10.797]   Pumping messages for window 0
+[11:52:10.797]   Pumping messages for window 1
+[11:52:10.797] Frame took 16.61ms
+[11:52:10.797] Beginning local frame 298
+[11:52:10.813]   Pumping messages for window 0
+[11:52:10.813]   Pumping messages for window 1
+[11:52:10.813] Frame took 16.65ms
+[11:52:10.813] Beginning local frame 299
+[11:52:10.830]   Pumping messages for window 0
+[11:52:10.830]   Pumping messages for window 1
+[11:52:10.830] Frame took 16.57ms
+[11:52:10.830] Beginning local frame 300
+[11:52:10.846]   Pumping messages for window 0
+[11:52:10.846]   Pumping messages for window 1
+[11:52:10.847] Frame took 16.56ms
+[11:52:10.847] Beginning local frame 301
+[11:52:10.863]   Pumping messages for window 0
+[11:52:10.863]   Pumping messages for window 1
+[11:52:10.863] Frame took 16.66ms
+[11:52:10.863] Beginning local frame 302
+[11:52:10.880]   Pumping messages for window 0
+[11:52:10.880]   Pumping messages for window 1
+[11:52:10.880] Frame took 16.75ms
+[11:52:10.880] Beginning local frame 303
+[11:52:10.896]   Pumping messages for window 0
+[11:52:10.896]   Pumping messages for window 1
+[11:52:10.897] Frame took 16.60ms
+[11:52:10.897] Beginning local frame 304
+[11:52:10.913]   Pumping messages for window 0
+[11:52:10.913]   Pumping messages for window 1
+[11:52:10.913] Frame took 16.64ms
+[11:52:10.913] Beginning local frame 305
+[11:52:10.930]   Pumping messages for window 0
+[11:52:10.930]   Pumping messages for window 1
+[11:52:10.930] Frame took 16.75ms
+[11:52:10.930] Beginning local frame 306
+[11:52:10.946]   Pumping messages for window 0
+[11:52:10.947]   Pumping messages for window 1
+[11:52:10.947] Frame took 16.65ms
+[11:52:10.947] Beginning local frame 307
+[11:52:10.963]   Pumping messages for window 0
+[11:52:10.963]   Pumping messages for window 1
+[11:52:10.963] Frame took 16.62ms
+[11:52:10.963] Beginning local frame 308
+[11:52:10.980]   Pumping messages for window 0
+[11:52:10.980]   Pumping messages for window 1
+[11:52:10.980] Frame took 16.65ms
+[11:52:10.980] Beginning local frame 309
+[11:52:10.996]   Pumping messages for window 0
+[11:52:10.996]   Pumping messages for window 1
+[11:52:10.996] Frame took 16.49ms
+[11:52:10.996] Beginning local frame 310
+[11:52:11.013]   Pumping messages for window 0
+[11:52:11.013]   Pumping messages for window 1
+[11:52:11.013] Frame took 16.76ms
+[11:52:11.013] Beginning local frame 311
+[11:52:11.030]   Pumping messages for window 0
+[11:52:11.030]   Pumping messages for window 1
+[11:52:11.030] Frame took 16.58ms
+[11:52:11.030] Beginning local frame 312
+[11:52:11.046]   Pumping messages for window 0
+[11:52:11.046]   Pumping messages for window 1
+[11:52:11.046] Frame took 16.65ms
+[11:52:11.046] Beginning local frame 313
+[11:52:11.063]   Pumping messages for window 0
+[11:52:11.063]   Pumping messages for window 1
+[11:52:11.063] Frame took 16.76ms
+[11:52:11.063] Beginning local frame 314
+[11:52:11.079]   Pumping messages for window 0
+[11:52:11.080]   Pumping messages for window 1
+[11:52:11.080] Frame took 16.63ms
+[11:52:11.080] Beginning local frame 315
+[11:52:11.096]   Pumping messages for window 0
+[11:52:11.096]   Pumping messages for window 1
+[11:52:11.096] Frame took 16.58ms
+[11:52:11.096] Beginning local frame 316
+[11:52:11.113]   Pumping messages for window 0
+[11:52:11.113]   Pumping messages for window 1
+[11:52:11.113] Frame took 16.80ms
+[11:52:11.113] Beginning local frame 317
+[11:52:11.130]   Pumping messages for window 0
+[11:52:11.130]   Pumping messages for window 1
+[11:52:11.130] Frame took 16.65ms
+[11:52:11.130] Beginning local frame 318
+[11:52:11.146]   Pumping messages for window 0
+[11:52:11.146]   Pumping messages for window 1
+[11:52:11.146] Frame took 16.57ms
+[11:52:11.146] Beginning local frame 319
+[11:52:11.163]   Pumping messages for window 0
+[11:52:11.163]   Pumping messages for window 1
+[11:52:11.163] Frame took 16.60ms
+[11:52:11.163] Beginning local frame 320
+[11:52:11.179]   Pumping messages for window 0
+[11:52:11.179]   Pumping messages for window 1
+[11:52:11.179] Frame took 16.54ms
+[11:52:11.179] Beginning local frame 321
+[11:52:11.196]   Pumping messages for window 0
+[11:52:11.196]   Pumping messages for window 1
+[11:52:11.196] Frame took 16.78ms
+[11:52:11.196] Beginning local frame 322
+[11:52:11.213]   Pumping messages for window 0
+[11:52:11.213]   Pumping messages for window 1
+[11:52:11.213] Frame took 16.63ms
+[11:52:11.213] Beginning local frame 323
+[11:52:11.229]   Pumping messages for window 0
+[11:52:11.230]   Pumping messages for window 1
+[11:52:11.230] Frame took 16.99ms
+[11:52:11.230] Beginning local frame 324
+[11:52:11.246]   Pumping messages for window 0
+[11:52:11.246]   Pumping messages for window 1
+[11:52:11.246] Frame took 16.37ms
+[11:52:11.246] Beginning local frame 325
+[11:52:11.262]   Pumping messages for window 0
+[11:52:11.263]   Pumping messages for window 1
+[11:52:11.263] Frame took 16.98ms
+[11:52:11.263] Beginning local frame 326
+[11:52:11.279]   Pumping messages for window 0
+[11:52:11.279]   Pumping messages for window 1
+[11:52:11.279] Frame took 16.29ms
+[11:52:11.280] Beginning local frame 327
+[11:52:11.296]   Pumping messages for window 0
+[11:52:11.296]   Pumping messages for window 1
+[11:52:11.296] Frame took 16.45ms
+[11:52:11.296] Beginning local frame 328
+[11:52:11.313]   Pumping messages for window 0
+[11:52:11.313]   Pumping messages for window 1
+[11:52:11.313] Frame took 16.89ms
+[11:52:11.313] Beginning local frame 329
+[11:52:11.329]   Pumping messages for window 0
+[11:52:11.329]   Pumping messages for window 1
+[11:52:11.329] Frame took 16.47ms
+[11:52:11.329] Beginning local frame 330
+[11:52:11.346]   Pumping messages for window 0
+[11:52:11.346]   Pumping messages for window 1
+[11:52:11.346] Frame took 16.63ms
+[11:52:11.346] Beginning local frame 331
+[11:52:11.362]   Pumping messages for window 0
+[11:52:11.362]   Pumping messages for window 1
+[11:52:11.362] Frame took 16.43ms
+[11:52:11.362] Beginning local frame 332
+[11:52:11.379]   Pumping messages for window 0
+[11:52:11.379]   Pumping messages for window 1
+[11:52:11.379] Frame took 16.72ms
+[11:52:11.379] Beginning local frame 333
+[11:52:11.396]   Pumping messages for window 0
+[11:52:11.396]   Pumping messages for window 1
+[11:52:11.396] Frame took 16.66ms
+[11:52:11.396] Beginning local frame 334
+[11:52:11.412]   Pumping messages for window 0
+[11:52:11.412]   Pumping messages for window 1
+[11:52:11.412] Frame took 16.68ms
+[11:52:11.412] Beginning local frame 335
+[11:52:11.429]   Pumping messages for window 0
+[11:52:11.429]   Pumping messages for window 1
+[11:52:11.429] Frame took 16.86ms
+[11:52:11.429] Beginning local frame 336
+[11:52:11.445]   Pumping messages for window 0
+[11:52:11.446]   Pumping messages for window 1
+[11:52:11.446] Frame took 16.27ms
+[11:52:11.446] Beginning local frame 337
+[11:52:11.462]   Pumping messages for window 0
+[11:52:11.462]   Pumping messages for window 1
+[11:52:11.462] Frame took 16.92ms
+[11:52:11.462] Beginning local frame 338
+[11:52:11.479]   Pumping messages for window 0
+[11:52:11.479]   Pumping messages for window 1
+[11:52:11.479] Frame took 16.45ms
+[11:52:11.479] Beginning local frame 339
+[11:52:11.495]   Pumping messages for window 0
+[11:52:11.496]   Pumping messages for window 1
+[11:52:11.496] Frame took 16.98ms
+[11:52:11.496] Beginning local frame 340
+[11:52:11.512]   Pumping messages for window 0
+[11:52:11.512]   Pumping messages for window 1
+[11:52:11.512] Frame took 16.42ms
+[11:52:11.512] Beginning local frame 341
+[11:52:11.529]   Pumping messages for window 0
+[11:52:11.529]   Pumping messages for window 1
+[11:52:11.529] Frame took 16.78ms
+[11:52:11.529] Beginning local frame 342
+[11:52:11.545]   Pumping messages for window 0
+[11:52:11.545]   Pumping messages for window 1
+[11:52:11.545] Frame took 16.42ms
+[11:52:11.546] Beginning local frame 343
+[11:52:11.562]   Pumping messages for window 0
+[11:52:11.562]   Pumping messages for window 1
+[11:52:11.562] Frame took 16.58ms
+[11:52:11.562] Beginning local frame 344
+[11:52:11.579]   Pumping messages for window 0
+[11:52:11.579]   Pumping messages for window 1
+[11:52:11.579] Frame took 16.77ms
+[11:52:11.579] Beginning local frame 345
+[11:52:11.595]   Pumping messages for window 0
+[11:52:11.595]   Pumping messages for window 1
+[11:52:11.595] Frame took 16.59ms
+[11:52:11.595] Beginning local frame 346
+[11:52:11.612]   Pumping messages for window 0
+[11:52:11.612]   Pumping messages for window 1
+[11:52:11.612] Frame took 16.67ms
+[11:52:11.612] Beginning local frame 347
+[11:52:11.629]   Pumping messages for window 0
+[11:52:11.629]   Pumping messages for window 1
+[11:52:11.629] Frame took 16.55ms
+[11:52:11.629] Beginning local frame 348
+[11:52:11.645]   Pumping messages for window 0
+[11:52:11.645]   Pumping messages for window 1
+[11:52:11.645] Frame took 16.64ms
+[11:52:11.645] Beginning local frame 349
+[11:52:11.662]   Pumping messages for window 0
+[11:52:11.662]   Pumping messages for window 1
+[11:52:11.662] Frame took 16.82ms
+[11:52:11.662] Beginning local frame 350
+[11:52:11.678]   Pumping messages for window 0
+[11:52:11.679]   Pumping messages for window 1
+[11:52:11.679] Frame took 16.45ms
+[11:52:11.679] Beginning local frame 351
+[11:52:11.695]   Pumping messages for window 0
+[11:52:11.695]   Pumping messages for window 1
+[11:52:11.695] Frame took 16.78ms
+[11:52:11.695] Beginning local frame 352
+[11:52:11.712]   Pumping messages for window 0
+[11:52:11.712]   Pumping messages for window 1
+[11:52:11.712] Frame took 16.55ms
+[11:52:11.712] Beginning local frame 353
+[11:52:11.728]   Pumping messages for window 0
+[11:52:11.728]   Pumping messages for window 1
+[11:52:11.728] Frame took 16.60ms
+[11:52:11.729] Beginning local frame 354
+[11:52:11.745]   Pumping messages for window 0
+[11:52:11.746]   Pumping messages for window 1
+[11:52:11.747] Frame took 18.03ms
+[11:52:11.747] Beginning local frame 355
+[11:52:11.762]   Pumping messages for window 0
+[11:52:11.762]   Pumping messages for window 1
+[11:52:11.762] Frame took 15.60ms
+[11:52:11.762] Beginning local frame 356
+[11:52:11.779]   Pumping messages for window 0
+[11:52:11.779]   Pumping messages for window 1
+[11:52:11.779] Frame took 16.61ms
+[11:52:11.779] Beginning local frame 357
+[11:52:11.795]   Pumping messages for window 0
+[11:52:11.795]   Pumping messages for window 1
+[11:52:11.795] Frame took 16.58ms
+[11:52:11.795] Beginning local frame 358
+[11:52:11.812]   Pumping messages for window 0
+[11:52:11.812]   Pumping messages for window 1
+[11:52:11.812] Frame took 16.48ms
+[11:52:11.812] Beginning local frame 359
+[11:52:11.828]   Pumping messages for window 0
+[11:52:11.828]   Pumping messages for window 1
+[11:52:11.828] Frame took 16.67ms
+[11:52:11.828] Beginning local frame 360
+[11:52:11.845]   Pumping messages for window 0
+[11:52:11.845]   Pumping messages for window 1
+[11:52:11.845] Frame took 16.68ms
+[11:52:11.845] Beginning local frame 361
+[11:52:11.861]   Pumping messages for window 0
+[11:52:11.862]   Pumping messages for window 1
+[11:52:11.862] Frame took 16.42ms
+[11:52:11.862] Beginning local frame 362
+[11:52:11.878]   Pumping messages for window 0
+[11:52:11.878]   Pumping messages for window 1
+[11:52:11.878] Frame took 16.75ms
+[11:52:11.878] Beginning local frame 363
+[11:52:11.895]   Pumping messages for window 0
+[11:52:11.895]   Pumping messages for window 1
+[11:52:11.895] Frame took 16.83ms
+[11:52:11.895] Beginning local frame 364
+[11:52:11.912]   Pumping messages for window 0
+[11:52:11.912]   Pumping messages for window 1
+[11:52:11.912] Frame took 16.60ms
+[11:52:11.912] Beginning local frame 365
+[11:52:11.928]   Pumping messages for window 0
+[11:52:11.928]   Pumping messages for window 1
+[11:52:11.928] Frame took 16.71ms
+[11:52:11.928] Beginning local frame 366
+[11:52:11.945]   Pumping messages for window 0
+[11:52:11.945]   Pumping messages for window 1
+[11:52:11.945] Frame took 16.37ms
+[11:52:11.945] Beginning local frame 367
+[11:52:11.961]   Pumping messages for window 0
+[11:52:11.962]   Pumping messages for window 1
+[11:52:11.962] Frame took 16.93ms
+[11:52:11.962] Beginning local frame 368
+[11:52:11.978]   Pumping messages for window 0
+[11:52:11.979]   Pumping messages for window 1
+[11:52:11.979] Frame took 16.91ms
+[11:52:11.979] Beginning local frame 369
+[11:52:11.995]   Pumping messages for window 0
+[11:52:11.995]   Pumping messages for window 1
+[11:52:11.995] Frame took 16.34ms
+[11:52:11.995] Beginning local frame 370
+[11:52:12.012]   Pumping messages for window 0
+[11:52:12.012]   Pumping messages for window 1
+[11:52:12.012] Frame took 17.09ms
+[11:52:12.012] Beginning local frame 371
+[11:52:12.028]   Pumping messages for window 0
+[11:52:12.028]   Pumping messages for window 1
+[11:52:12.028] Frame took 15.92ms
+[11:52:12.028] Beginning local frame 372
+[11:52:12.045]   Pumping messages for window 0
+[11:52:12.045]   Pumping messages for window 1
+[11:52:12.046] Frame took 17.65ms
+[11:52:12.046] Beginning local frame 373
+[11:52:12.061]   Pumping messages for window 0
+[11:52:12.061]   Pumping messages for window 1
+[11:52:12.061] Frame took 15.82ms
+[11:52:12.062] Beginning local frame 374
+[11:52:12.078]   Pumping messages for window 0
+[11:52:12.078]   Pumping messages for window 1
+[11:52:12.078] Frame took 16.55ms
+[11:52:12.078] Beginning local frame 375
+[11:52:12.078]   Pumping messages for window 0
+[11:52:12.078]   Pumping messages for window 1
+[11:52:12.078] Frame took 0.35ms
+[11:52:12.078] Beginning local frame 376
+[11:52:12.095]   Pumping messages for window 0
+[11:52:12.095]   Pumping messages for window 1
+[11:52:12.095] Frame took 16.46ms
+[11:52:12.095] Beginning local frame 377
+[11:52:12.111]   Pumping messages for window 0
+[11:52:12.111]   Pumping messages for window 1
+[11:52:12.112] Frame took 16.72ms
+[11:52:12.112] Beginning local frame 378
+[11:52:12.128]   Pumping messages for window 0
+[11:52:12.128]   Pumping messages for window 1
+[11:52:12.128] Frame took 16.51ms
+[11:52:12.128] Beginning local frame 379
+[11:52:12.145]   Pumping messages for window 0
+[11:52:12.145]   Pumping messages for window 1
+[11:52:12.145] Frame took 16.64ms
+[11:52:12.145] Beginning local frame 380
+[11:52:12.161]   Pumping messages for window 0
+[11:52:12.161]   Pumping messages for window 1
+[11:52:12.161] Frame took 16.73ms
+[11:52:12.161] Beginning local frame 381
+[11:52:12.178]   Pumping messages for window 0
+[11:52:12.178]   Pumping messages for window 1
+[11:52:12.178] Frame took 16.90ms
+[11:52:12.178] Beginning local frame 382
+[11:52:12.195]   Pumping messages for window 0
+[11:52:12.195]   Pumping messages for window 1
+[11:52:12.195] Frame took 16.43ms
+[11:52:12.195] Beginning local frame 383
+[11:52:12.211]   Pumping messages for window 0
+[11:52:12.211]   Pumping messages for window 1
+[11:52:12.211] Frame took 16.72ms
+[11:52:12.212] Beginning local frame 384
+[11:52:12.228]   Pumping messages for window 0
+[11:52:12.228]   Pumping messages for window 1
+[11:52:12.229] Frame took 17.50ms
+[11:52:12.229] Beginning local frame 385
+[11:52:12.245]   Pumping messages for window 0
+[11:52:12.245]   Pumping messages for window 1
+[11:52:12.245] Frame took 16.37ms
+[11:52:12.245] Beginning local frame 386
+[11:52:12.262]   Pumping messages for window 0
+[11:52:12.262]   Pumping messages for window 1
+[11:52:12.262] Frame took 16.79ms
+[11:52:12.262] Beginning local frame 387
+[11:52:12.278]   Pumping messages for window 0
+[11:52:12.278]   Pumping messages for window 1
+[11:52:12.278] Frame took 16.04ms
+[11:52:12.278] Beginning local frame 388
+[11:52:12.295]   Pumping messages for window 0
+[11:52:12.295]   Pumping messages for window 1
+[11:52:12.295] Frame took 17.05ms
+[11:52:12.295] Beginning local frame 389
+[11:52:12.311]   Pumping messages for window 0
+[11:52:12.311]   Pumping messages for window 1
+[11:52:12.311] Frame took 16.14ms
+[11:52:12.311] Beginning local frame 390
+[11:52:12.328]   Pumping messages for window 0
+[11:52:12.328]   Pumping messages for window 1
+[11:52:12.328] Frame took 16.81ms
+[11:52:12.328] Beginning local frame 391
+[11:52:12.345]   Pumping messages for window 0
+[11:52:12.345]   Pumping messages for window 1
+[11:52:12.345] Frame took 16.60ms
+[11:52:12.345] Beginning local frame 392
+[11:52:12.377]   Pumping messages for window 0
+[11:52:12.377]   Pumping messages for window 1
+[11:52:12.377] Frame took 32.66ms
+[11:52:12.377] Beginning local frame 393
+[11:52:12.378]   Pumping messages for window 0
+[11:52:12.378]   Pumping messages for window 1
+[11:52:12.378] Frame took 0.87ms
+[11:52:12.378] Beginning local frame 394
+[11:52:12.411]   Pumping messages for window 0
+[11:52:12.411]   Pumping messages for window 1
+[11:52:12.411] Frame took 32.57ms
+[11:52:12.411] Beginning local frame 395
+[11:52:12.427]   Pumping messages for window 0
+[11:52:12.427]   Pumping messages for window 1
+[11:52:12.427] Frame took 16.44ms
+[11:52:12.427] Beginning local frame 396
+[11:52:12.428]   Pumping messages for window 0
+[11:52:12.428]   Pumping messages for window 1
+[11:52:12.428] Frame took 0.89ms
+[11:52:12.428] Beginning local frame 397
+[11:52:12.461]   Pumping messages for window 0
+[11:52:12.461]   Pumping messages for window 1
+[11:52:12.461] Frame took 32.45ms
+[11:52:12.461] Beginning local frame 398
+[11:52:12.477]   Pumping messages for window 0
+[11:52:12.477]   Pumping messages for window 1
+[11:52:12.477] Frame took 16.70ms
+[11:52:12.477] Beginning local frame 399
+[11:52:12.494]   Pumping messages for window 0
+[11:52:12.494]   Pumping messages for window 1
+[11:52:12.494] Frame took 16.62ms
+[11:52:12.494] Beginning local frame 400
+[11:52:12.511]   Pumping messages for window 0
+[11:52:12.511]   Pumping messages for window 1
+[11:52:12.511] Frame took 16.66ms
+[11:52:12.511] Beginning local frame 401
+[11:52:12.527]   Pumping messages for window 0
+[11:52:12.527]   Pumping messages for window 1
+[11:52:12.527] Frame took 16.57ms
+[11:52:12.527] Beginning local frame 402
+[11:52:12.544]   Pumping messages for window 0
+[11:52:12.544]   Pumping messages for window 1
+[11:52:12.544] Frame took 16.76ms
+[11:52:12.544] Beginning local frame 403
+[11:52:12.560]   Pumping messages for window 0
+[11:52:12.560]   Pumping messages for window 1
+[11:52:12.560] Frame took 16.51ms
+[11:52:12.561] Beginning local frame 404
+[11:52:12.577]   Pumping messages for window 0
+[11:52:12.577]   Pumping messages for window 1
+[11:52:12.577] Frame took 16.76ms
+[11:52:12.577] Beginning local frame 405
+[11:52:12.594]   Pumping messages for window 0
+[11:52:12.594]   Pumping messages for window 1
+[11:52:12.594] Frame took 16.82ms
+[11:52:12.594] Beginning local frame 406
+[11:52:12.610]   Pumping messages for window 0
+[11:52:12.610]   Pumping messages for window 1
+[11:52:12.611] Frame took 16.45ms
+[11:52:12.611] Beginning local frame 407
+[11:52:12.627]   Pumping messages for window 0
+[11:52:12.627]   Pumping messages for window 1
+[11:52:12.627] Frame took 16.85ms
+[11:52:12.627] Beginning local frame 408
+[11:52:12.644]   Pumping messages for window 0
+[11:52:12.644]   Pumping messages for window 1
+[11:52:12.644] Frame took 16.39ms
+[11:52:12.644] Beginning local frame 409
+[11:52:12.660]   Pumping messages for window 0
+[11:52:12.661]   Pumping messages for window 1
+[11:52:12.661] Frame took 16.80ms
+[11:52:12.661] Beginning local frame 410
+[11:52:12.677]   Pumping messages for window 0
+[11:52:12.677]   Pumping messages for window 1
+[11:52:12.677] Frame took 16.57ms
+[11:52:12.677] Beginning local frame 411
+[11:52:12.694]   Pumping messages for window 0
+[11:52:12.694]   Pumping messages for window 1
+[11:52:12.694] Frame took 16.67ms
+[11:52:12.694] Beginning local frame 412
+[11:52:12.710]   Pumping messages for window 0
+[11:52:12.710]   Pumping messages for window 1
+[11:52:12.710] Frame took 16.61ms
+[11:52:12.710] Beginning local frame 413
+[11:52:12.727]   Pumping messages for window 0
+[11:52:12.727]   Pumping messages for window 1
+[11:52:12.727] Frame took 16.75ms
+[11:52:12.727] Beginning local frame 414
+[11:52:12.743]   Pumping messages for window 0
+[11:52:12.744]   Pumping messages for window 1
+[11:52:12.744] Frame took 16.44ms
+[11:52:12.744] Beginning local frame 415
+[11:52:12.760]   Pumping messages for window 0
+[11:52:12.762]   Pumping messages for window 1
+[11:52:12.762] Frame took 18.41ms
+[11:52:12.762] Beginning local frame 416
+[11:52:12.779]   Pumping messages for window 0
+[11:52:12.779]   Pumping messages for window 1
+[11:52:12.779] Frame took 16.70ms
+[11:52:12.779] Beginning local frame 417
+[11:52:12.795]   Pumping messages for window 0
+[11:52:12.795]   Pumping messages for window 1
+[11:52:12.795] Frame took 16.53ms
+[11:52:12.795] Beginning local frame 418
+[11:52:12.812]   Pumping messages for window 0
+[11:52:12.812]   Pumping messages for window 1
+[11:52:12.812] Frame took 16.89ms
+[11:52:12.812] Beginning local frame 419
+[11:52:12.829]   Pumping messages for window 0
+[11:52:12.829]   Pumping messages for window 1
+[11:52:12.829] Frame took 16.80ms
+[11:52:12.829] Beginning local frame 420
+[11:52:12.845]   Pumping messages for window 0
+[11:52:12.845]   Pumping messages for window 1
+[11:52:12.845] Frame took 16.33ms
+[11:52:12.845] Beginning local frame 421
+[11:52:12.862]   Pumping messages for window 0
+[11:52:12.862]   Pumping messages for window 1
+[11:52:12.862] Frame took 16.72ms
+[11:52:12.862] Beginning local frame 422
+[11:52:12.877]   Pumping messages for window 0
+[11:52:12.877]   Pumping messages for window 1
+[11:52:12.877] Frame took 14.73ms
+[11:52:12.877] Beginning local frame 423
+[11:52:12.893]   Pumping messages for window 0
+[11:52:12.893]   Pumping messages for window 1
+[11:52:12.894] Frame took 16.85ms
+[11:52:12.894] Beginning local frame 424
+[11:52:12.910]   Pumping messages for window 0
+[11:52:12.910]   Pumping messages for window 1
+[11:52:12.910] Frame took 16.68ms
+[11:52:12.910] Beginning local frame 425
+[11:52:12.927]   Pumping messages for window 0
+[11:52:12.927]   Pumping messages for window 1
+[11:52:12.927] Frame took 16.59ms
+[11:52:12.927] Beginning local frame 426
+[11:52:12.943]   Pumping messages for window 0
+[11:52:12.943]   Pumping messages for window 1
+[11:52:12.944] Frame took 16.70ms
+[11:52:12.944] Beginning local frame 427
+[11:52:12.960]   Pumping messages for window 0
+[11:52:12.960]   Pumping messages for window 1
+[11:52:12.960] Frame took 16.20ms
+[11:52:12.960] Beginning local frame 428
+[11:52:12.977]   Pumping messages for window 0
+[11:52:12.977]   Pumping messages for window 1
+[11:52:12.977] Frame took 17.15ms
+[11:52:12.977] Beginning local frame 429
+[11:52:12.993]   Pumping messages for window 0
+[11:52:12.993]   Pumping messages for window 1
+[11:52:12.993] Frame took 16.35ms
+[11:52:12.993] Beginning local frame 430
+[11:52:13.010]   Pumping messages for window 0
+[11:52:13.010]   Pumping messages for window 1
+[11:52:13.010] Frame took 16.57ms
+[11:52:13.010] Beginning local frame 431
+[11:52:13.026]   Pumping messages for window 0
+[11:52:13.027]   Pumping messages for window 1
+[11:52:13.027] Frame took 16.77ms
+[11:52:13.027] Beginning local frame 432
+[11:52:13.043]   Pumping messages for window 0
+[11:52:13.043]   Pumping messages for window 1
+[11:52:13.043] Frame took 16.60ms
+[11:52:13.043] Beginning local frame 433
+[11:52:13.060]   Pumping messages for window 0
+[11:52:13.060]   Pumping messages for window 1
+[11:52:13.060] Frame took 16.60ms
+[11:52:13.060] Beginning local frame 434
+[11:52:13.076]   Pumping messages for window 0
+[11:52:13.076]   Pumping messages for window 1
+[11:52:13.076] Frame took 16.59ms
+[11:52:13.076] Beginning local frame 435
+[11:52:13.093]   Pumping messages for window 0
+[11:52:13.093]   Pumping messages for window 1
+[11:52:13.093] Frame took 16.80ms
+[11:52:13.093] Beginning local frame 436
+[11:52:13.110]   Pumping messages for window 0
+[11:52:13.110]   Pumping messages for window 1
+[11:52:13.110] Frame took 16.60ms
+[11:52:13.110] Beginning local frame 437
+[11:52:13.126]   Pumping messages for window 0
+[11:52:13.126]   Pumping messages for window 1
+[11:52:13.126] Frame took 16.58ms
+[11:52:13.126] Beginning local frame 438
+[11:52:13.143]   Pumping messages for window 0
+[11:52:13.143]   Pumping messages for window 1
+[11:52:13.143] Frame took 16.72ms
+[11:52:13.143] Beginning local frame 439
+[11:52:13.159]   Pumping messages for window 0
+[11:52:13.159]   Pumping messages for window 1
+[11:52:13.159] Frame took 16.43ms
+[11:52:13.160] Beginning local frame 440
+[11:52:13.176]   Pumping messages for window 0
+[11:52:13.177]   Pumping messages for window 1
+[11:52:13.177] Frame took 17.09ms
+[11:52:13.177] Beginning local frame 441
+[11:52:13.193]   Pumping messages for window 0
+[11:52:13.193]   Pumping messages for window 1
+[11:52:13.193] Frame took 16.63ms
+[11:52:13.193] Beginning local frame 442
+[11:52:13.209]   Pumping messages for window 0
+[11:52:13.210]   Pumping messages for window 1
+[11:52:13.210] Frame took 16.36ms
+[11:52:13.210] Beginning local frame 443
+[11:52:13.226]   Pumping messages for window 0
+[11:52:13.226]   Pumping messages for window 1
+[11:52:13.226] Frame took 16.60ms
+[11:52:13.226] Beginning local frame 444
+[11:52:13.243]   Pumping messages for window 0
+[11:52:13.243]   Pumping messages for window 1
+[11:52:13.243] Frame took 16.59ms
+[11:52:13.243] Beginning local frame 445
+[11:52:13.259]   Pumping messages for window 0
+[11:52:13.259]   Pumping messages for window 1
+[11:52:13.259] Frame took 16.67ms
+[11:52:13.259] Beginning local frame 446
+[11:52:13.276]   Pumping messages for window 0
+[11:52:13.276]   Pumping messages for window 1
+[11:52:13.276] Frame took 16.65ms
+[11:52:13.276] Beginning local frame 447
+[11:52:13.293]   Pumping messages for window 0
+[11:52:13.293]   Pumping messages for window 1
+[11:52:13.293] Frame took 16.67ms
+[11:52:13.293] Beginning local frame 448
+[11:52:13.309]   Pumping messages for window 0
+[11:52:13.309]   Pumping messages for window 1
+[11:52:13.310] Frame took 16.77ms
+[11:52:13.310] Beginning local frame 449
+[11:52:13.326]   Pumping messages for window 0
+[11:52:13.326]   Pumping messages for window 1
+[11:52:13.326] Frame took 16.50ms
+[11:52:13.326] Beginning local frame 450
+[11:52:13.342]   Pumping messages for window 0
+[11:52:13.343]   Pumping messages for window 1
+[11:52:13.343] Frame took 16.58ms
+[11:52:13.343] Beginning local frame 451
+[11:52:13.359]   Pumping messages for window 0
+[11:52:13.359]   Pumping messages for window 1
+[11:52:13.359] Frame took 16.67ms
+[11:52:13.359] Beginning local frame 452
+[11:52:13.376]   Pumping messages for window 0
+[11:52:13.376]   Pumping messages for window 1
+[11:52:13.376] Frame took 16.66ms
+[11:52:13.376] Beginning local frame 453
+[11:52:13.393]   Pumping messages for window 0
+[11:52:13.393]   Pumping messages for window 1
+[11:52:13.393] Frame took 16.82ms
+[11:52:13.393] Beginning local frame 454
+[11:52:13.409]   Pumping messages for window 0
+[11:52:13.409]   Pumping messages for window 1
+[11:52:13.410] Frame took 16.80ms
+[11:52:13.410] Beginning local frame 455
+[11:52:13.426]   Pumping messages for window 0
+[11:52:13.426]   Pumping messages for window 1
+[11:52:13.426] Frame took 16.25ms
+[11:52:13.426] Beginning local frame 456
+[11:52:13.442]   Pumping messages for window 0
+[11:52:13.442]   Pumping messages for window 1
+[11:52:13.443] Frame took 16.71ms
+[11:52:13.443] Beginning local frame 457
+[11:52:13.459]   Pumping messages for window 0
+[11:52:13.459]   Pumping messages for window 1
+[11:52:13.459] Frame took 16.53ms
+[11:52:13.459] Beginning local frame 458
+[11:52:13.475]   Pumping messages for window 0
+[11:52:13.476]   Pumping messages for window 1
+[11:52:13.476] Frame took 16.57ms
+[11:52:13.476] Beginning local frame 459
+[11:52:13.493]   Pumping messages for window 0
+[11:52:13.493]   Pumping messages for window 1
+[11:52:13.493] Frame took 17.11ms
+[11:52:13.493] Beginning local frame 460
+[11:52:13.509]   Pumping messages for window 0
+[11:52:13.509]   Pumping messages for window 1
+[11:52:13.509] Frame took 16.25ms
+[11:52:13.509] Beginning local frame 461
+[11:52:13.525]   Pumping messages for window 0
+[11:52:13.526]   Pumping messages for window 1
+[11:52:13.526] Frame took 16.67ms
+[11:52:13.526] Beginning local frame 462
+[11:52:13.542]   Pumping messages for window 0
+[11:52:13.543]   Pumping messages for window 1
+[11:52:13.543] Frame took 16.97ms
+[11:52:13.543] Beginning local frame 463
+[11:52:13.559]   Pumping messages for window 0
+[11:52:13.559]   Pumping messages for window 1
+[11:52:13.559] Frame took 16.43ms
+[11:52:13.559] Beginning local frame 464
+[11:52:13.576]   Pumping messages for window 0
+[11:52:13.576]   Pumping messages for window 1
+[11:52:13.576] Frame took 16.73ms
+[11:52:13.576] Beginning local frame 465
+[11:52:13.592]   Pumping messages for window 0
+[11:52:13.592]   Pumping messages for window 1
+[11:52:13.592] Frame took 16.60ms
+[11:52:13.592] Beginning local frame 466
+[11:52:13.609]   Pumping messages for window 0
+[11:52:13.609]   Pumping messages for window 1
+[11:52:13.609] Frame took 16.73ms
+[11:52:13.609] Beginning local frame 467
+[11:52:13.625]   Pumping messages for window 0
+[11:52:13.626]   Pumping messages for window 1
+[11:52:13.626] Frame took 16.55ms
+[11:52:13.626] Beginning local frame 468
+[11:52:13.642]   Pumping messages for window 0
+[11:52:13.642]   Pumping messages for window 1
+[11:52:13.642] Frame took 16.64ms
+[11:52:13.642] Beginning local frame 469
+[11:52:13.659]   Pumping messages for window 0
+[11:52:13.659]   Pumping messages for window 1
+[11:52:13.659] Frame took 16.46ms
+[11:52:13.659] Beginning local frame 470
+[11:52:13.675]   Pumping messages for window 0
+[11:52:13.676]   Pumping messages for window 1
+[11:52:13.677] Frame took 17.84ms
+[11:52:13.677] Beginning local frame 471
+[11:52:13.692]   Pumping messages for window 0
+[11:52:13.692]   Pumping messages for window 1
+[11:52:13.692] Frame took 15.70ms
+[11:52:13.692] Beginning local frame 472
+[11:52:13.709]   Pumping messages for window 0
+[11:52:13.709]   Pumping messages for window 1
+[11:52:13.709] Frame took 16.62ms
+[11:52:13.709] Beginning local frame 473
+[11:52:13.725]   Pumping messages for window 0
+[11:52:13.725]   Pumping messages for window 1
+[11:52:13.725] Frame took 16.57ms
+[11:52:13.725] Beginning local frame 474
+[11:52:13.742]   Pumping messages for window 0
+[11:52:13.742]   Pumping messages for window 1
+[11:52:13.742] Frame took 16.55ms
+[11:52:13.742] Beginning local frame 475
+[11:52:13.758]   Pumping messages for window 0
+[11:52:13.758]   Pumping messages for window 1
+[11:52:13.759] Frame took 16.48ms
+[11:52:13.759] Beginning local frame 476
+[11:52:13.775]   Pumping messages for window 0
+[11:52:13.775]   Pumping messages for window 1
+[11:52:13.775] Frame took 16.91ms
+[11:52:13.775] Beginning local frame 477
+[11:52:13.792]   Pumping messages for window 0
+[11:52:13.792]   Pumping messages for window 1
+[11:52:13.792] Frame took 16.57ms
+[11:52:13.792] Beginning local frame 478
+[11:52:13.808]   Pumping messages for window 0
+[11:52:13.809]   Pumping messages for window 1
+[11:52:13.809] Frame took 16.58ms
+[11:52:13.809] Beginning local frame 479
+[11:52:13.825]   Pumping messages for window 0
+[11:52:13.825]   Pumping messages for window 1
+[11:52:13.825] Frame took 16.58ms
+[11:52:13.825] Beginning local frame 480
+[11:52:13.842]   Pumping messages for window 0
+[11:52:13.842]   Pumping messages for window 1
+[11:52:13.842] Frame took 16.96ms
+[11:52:13.842] Beginning local frame 481
+[11:52:13.858]   Pumping messages for window 0
+[11:52:13.859]   Pumping messages for window 1
+[11:52:13.859] Frame took 16.56ms
+[11:52:13.859] Beginning local frame 482
+[11:52:13.875]   Pumping messages for window 0
+[11:52:13.875]   Pumping messages for window 1
+[11:52:13.875] Frame took 16.77ms
+[11:52:13.875] Beginning local frame 483
+[11:52:13.892]   Pumping messages for window 0
+[11:52:13.892]   Pumping messages for window 1
+[11:52:13.892] Frame took 16.58ms
+[11:52:13.892] Beginning local frame 484
+[11:52:13.908]   Pumping messages for window 0
+[11:52:13.909]   Pumping messages for window 1
+[11:52:13.909] Frame took 16.62ms
+[11:52:13.909] Beginning local frame 485
+[11:52:13.925]   Pumping messages for window 0
+[11:52:13.925]   Pumping messages for window 1
+[11:52:13.925] Frame took 16.84ms
+[11:52:13.926] Beginning local frame 486
+[11:52:13.942]   Pumping messages for window 0
+[11:52:13.942]   Pumping messages for window 1
+[11:52:13.943] Frame took 17.59ms
+[11:52:13.943] Beginning local frame 487
+[11:52:13.958]   Pumping messages for window 0
+[11:52:13.958]   Pumping messages for window 1
+[11:52:13.958] Frame took 15.20ms
+[11:52:13.958] Beginning local frame 488
+[11:52:13.976]   Pumping messages for window 0
+[11:52:13.976]   Pumping messages for window 1
+[11:52:13.976] Frame took 18.03ms
+[11:52:13.976] Beginning local frame 489
+[11:52:13.991]   Pumping messages for window 0
+[11:52:13.992]   Pumping messages for window 1
+[11:52:13.992] Frame took 15.26ms
+[11:52:13.992] Beginning local frame 490
+[11:52:14.008]   Pumping messages for window 0
+[11:52:14.008]   Pumping messages for window 1
+[11:52:14.008] Frame took 16.69ms
+[11:52:14.008] Beginning local frame 491
+[11:52:14.025]   Pumping messages for window 0
+[11:52:14.025]   Pumping messages for window 1
+[11:52:14.025] Frame took 16.73ms
+[11:52:14.025] Beginning local frame 492
+[11:52:14.041]   Pumping messages for window 0
+[11:52:14.041]   Pumping messages for window 1
+[11:52:14.042] Frame took 16.54ms
+[11:52:14.042] Beginning local frame 493
+[11:52:14.058]   Pumping messages for window 0
+[11:52:14.058]   Pumping messages for window 1
+[11:52:14.058] Frame took 16.52ms
+[11:52:14.058] Beginning local frame 494
+[11:52:14.075]   Pumping messages for window 0
+[11:52:14.075]   Pumping messages for window 1
+[11:52:14.075] Frame took 16.92ms
+[11:52:14.075] Beginning local frame 495
+[11:52:14.091]   Pumping messages for window 0
+[11:52:14.091]   Pumping messages for window 1
+[11:52:14.091] Frame took 16.41ms
+[11:52:14.091] Beginning local frame 496
+[11:52:14.108]   Pumping messages for window 0
+[11:52:14.108]   Pumping messages for window 1
+[11:52:14.108] Frame took 16.55ms
+[11:52:14.108] Beginning local frame 497
+[11:52:14.124]   Pumping messages for window 0
+[11:52:14.125]   Pumping messages for window 1
+[11:52:14.125] Frame took 16.67ms
+[11:52:14.125] Beginning local frame 498
+[11:52:14.141]   Pumping messages for window 0
+[11:52:14.141]   Pumping messages for window 1
+[11:52:14.141] Frame took 16.82ms
+[11:52:14.141] Beginning local frame 499
+[11:52:14.158]   Pumping messages for window 0
+[11:52:14.158]   Pumping messages for window 1
+[11:52:14.158] Frame took 16.65ms
+[11:52:14.158] Beginning local frame 500
+[11:52:14.175]   Pumping messages for window 0
+[11:52:14.175]   Pumping messages for window 1
+[11:52:14.175] Frame took 16.67ms
+[11:52:14.175] Beginning local frame 501
+[11:52:14.191]   Pumping messages for window 0
+[11:52:14.191]   Pumping messages for window 1
+[11:52:14.191] Frame took 16.63ms
+[11:52:14.191] Beginning local frame 502
+[11:52:14.208]   Pumping messages for window 0
+[11:52:14.208]   Pumping messages for window 1
+[11:52:14.208] Frame took 16.48ms
+[11:52:14.208] Beginning local frame 503
+[11:52:14.224]   Pumping messages for window 0
+[11:52:14.224]   Pumping messages for window 1
+[11:52:14.224] Frame took 16.65ms
+[11:52:14.225] Beginning local frame 504
+[11:52:14.241]   Pumping messages for window 0
+[11:52:14.241]   Pumping messages for window 1
+[11:52:14.241] Frame took 16.74ms
+[11:52:14.241] Beginning local frame 505
+[11:52:14.258]   Pumping messages for window 0
+[11:52:14.258]   Pumping messages for window 1
+[11:52:14.258] Frame took 16.49ms
+[11:52:14.258] Beginning local frame 506
+[11:52:14.274]   Pumping messages for window 0
+[11:52:14.275]   Pumping messages for window 1
+[11:52:14.275] Frame took 16.89ms
+[11:52:14.275] Beginning local frame 507
+[11:52:14.291]   Pumping messages for window 0
+[11:52:14.291]   Pumping messages for window 1
+[11:52:14.291] Frame took 16.78ms
+[11:52:14.291] Beginning local frame 508
+[11:52:14.308]   Pumping messages for window 0
+[11:52:14.308]   Pumping messages for window 1
+[11:52:14.308] Frame took 16.39ms
+[11:52:14.308] Beginning local frame 509
+[11:52:14.324]   Pumping messages for window 0
+[11:52:14.325]   Pumping messages for window 1
+[11:52:14.325] Frame took 16.76ms
+[11:52:14.325] Beginning local frame 510
+[11:52:14.341]   Pumping messages for window 0
+[11:52:14.341]   Pumping messages for window 1
+[11:52:14.341] Frame took 16.62ms
+[11:52:14.341] Beginning local frame 511
+[11:52:14.357]   Pumping messages for window 0
+[11:52:14.358]   Pumping messages for window 1
+[11:52:14.358] Frame took 16.50ms
+[11:52:14.358] Beginning local frame 512
+[11:52:14.374]   Pumping messages for window 0
+[11:52:14.374]   Pumping messages for window 1
+[11:52:14.374] Frame took 16.80ms
+[11:52:14.374] Beginning local frame 513
+[11:52:14.391]   Pumping messages for window 0
+[11:52:14.391]   Pumping messages for window 1
+[11:52:14.391] Frame took 16.71ms
+[11:52:14.391] Beginning local frame 514
+[11:52:14.408]   Pumping messages for window 0
+[11:52:14.408]   Pumping messages for window 1
+[11:52:14.408] Frame took 16.55ms
+[11:52:14.408] Beginning local frame 515
+[11:52:14.424]   Pumping messages for window 0
+[11:52:14.424]   Pumping messages for window 1
+[11:52:14.424] Frame took 16.41ms
+[11:52:14.424] Beginning local frame 516
+[11:52:14.441]   Pumping messages for window 0
+[11:52:14.441]   Pumping messages for window 1
+[11:52:14.441] Frame took 17.17ms
+[11:52:14.441] Beginning local frame 517
+[11:52:14.457]   Pumping messages for window 0
+[11:52:14.458]   Pumping messages for window 1
+[11:52:14.458] Frame took 16.34ms
+[11:52:14.458] Beginning local frame 518
+[11:52:14.474]   Pumping messages for window 0
+[11:52:14.474]   Pumping messages for window 1
+[11:52:14.474] Frame took 16.48ms
+[11:52:14.474] Beginning local frame 519
+[11:52:14.491]   Pumping messages for window 0
+[11:52:14.491]   Pumping messages for window 1
+[11:52:14.491] Frame took 16.76ms
+[11:52:14.491] Beginning local frame 520
+[11:52:14.507]   Pumping messages for window 0
+[11:52:14.507]   Pumping messages for window 1
+[11:52:14.507] Frame took 16.53ms
+[11:52:14.507] Beginning local frame 521
+[11:52:14.524]   Pumping messages for window 0
+[11:52:14.524]   Pumping messages for window 1
+[11:52:14.524] Frame took 16.87ms
+[11:52:14.524] Beginning local frame 522
+[11:52:14.541]   Pumping messages for window 0
+[11:52:14.541]   Pumping messages for window 1
+[11:52:14.541] Frame took 16.55ms
+[11:52:14.541] Beginning local frame 523
+[11:52:14.557]   Pumping messages for window 0
+[11:52:14.557]   Pumping messages for window 1
+[11:52:14.557] Frame took 16.62ms
+[11:52:14.557] Beginning local frame 524
+[11:52:14.574]   Pumping messages for window 0
+[11:52:14.574]   Pumping messages for window 1
+[11:52:14.574] Frame took 16.62ms
+[11:52:14.574] Beginning local frame 525
+[11:52:14.590]   Pumping messages for window 0
+[11:52:14.591]   Pumping messages for window 1
+[11:52:14.591] Frame took 16.57ms
+[11:52:14.591] Beginning local frame 526
+[11:52:14.607]   Pumping messages for window 0
+[11:52:14.607]   Pumping messages for window 1
+[11:52:14.607] Frame took 16.87ms
+[11:52:14.608] Beginning local frame 527
+[11:52:14.624]   Pumping messages for window 0
+[11:52:14.624]   Pumping messages for window 1
+[11:52:14.624] Frame took 16.47ms
+[11:52:14.624] Beginning local frame 528
+[11:52:14.640]   Pumping messages for window 0
+[11:52:14.641]   Pumping messages for window 1
+[11:52:14.641] Frame took 16.65ms
+[11:52:14.641] Beginning local frame 529
+[11:52:14.657]   Pumping messages for window 0
+[11:52:14.657]   Pumping messages for window 1
+[11:52:14.657] Frame took 16.62ms
+[11:52:14.657] Beginning local frame 530
+[11:52:14.674]   Pumping messages for window 0
+[11:52:14.674]   Pumping messages for window 1
+[11:52:14.674] Frame took 16.53ms
+[11:52:14.674] Beginning local frame 531
+[11:52:14.690]   Pumping messages for window 0
+[11:52:14.690]   Pumping messages for window 1
+[11:52:14.691] Frame took 16.76ms
+[11:52:14.691] Beginning local frame 532
+[11:52:14.707]   Pumping messages for window 0
+[11:52:14.707]   Pumping messages for window 1
+[11:52:14.707] Frame took 16.54ms
+[11:52:14.707] Beginning local frame 533
+[11:52:14.723]   Pumping messages for window 0
+[11:52:14.724]   Pumping messages for window 1
+[11:52:14.724] Frame took 16.59ms
+[11:52:14.724] Beginning local frame 534
+[11:52:14.740]   Pumping messages for window 0
+[11:52:14.740]   Pumping messages for window 1
+[11:52:14.740] Frame took 16.81ms
+[11:52:14.740] Beginning local frame 535
+[11:52:14.757]   Pumping messages for window 0
+[11:52:14.757]   Pumping messages for window 1
+[11:52:14.757] Frame took 16.89ms
+[11:52:14.757] Beginning local frame 536
+[11:52:14.774]   Pumping messages for window 0
+[11:52:14.774]   Pumping messages for window 1
+[11:52:14.774] Frame took 16.54ms
+[11:52:14.774] Beginning local frame 537
+[11:52:14.790]   Pumping messages for window 0
+[11:52:14.790]   Pumping messages for window 1
+[11:52:14.790] Frame took 16.38ms
+[11:52:14.790] Beginning local frame 538
+[11:52:14.807]   Pumping messages for window 0
+[11:52:14.807]   Pumping messages for window 1
+[11:52:14.807] Frame took 16.74ms
+[11:52:14.807] Beginning local frame 539
+[11:52:14.824]   Pumping messages for window 0
+[11:52:14.824]   Pumping messages for window 1
+[11:52:14.824] Frame took 17.04ms
+[11:52:14.824] Beginning local frame 540
+[11:52:14.840]   Pumping messages for window 0
+[11:52:14.841]   Pumping messages for window 1
+[11:52:14.841] Frame took 16.55ms
+[11:52:14.841] Beginning local frame 541
+[11:52:14.857]   Pumping messages for window 0
+[11:52:14.857]   Pumping messages for window 1
+[11:52:14.857] Frame took 16.78ms
+[11:52:14.857] Beginning local frame 542
+[11:52:14.873]   Pumping messages for window 0
+[11:52:14.873]   Pumping messages for window 1
+[11:52:14.874] Frame took 16.13ms
+[11:52:14.874] Beginning local frame 543
+[11:52:14.890]   Pumping messages for window 0
+[11:52:14.890]   Pumping messages for window 1
+[11:52:14.891] Frame took 17.00ms
+[11:52:14.891] Beginning local frame 544
+[11:52:14.907]   Pumping messages for window 0
+[11:52:14.908]   Pumping messages for window 1
+[11:52:14.909] Frame took 18.09ms
+[11:52:14.909] Beginning local frame 545
+[11:52:14.923]   Pumping messages for window 0
+[11:52:14.924]   Pumping messages for window 1
+[11:52:14.924] Frame took 15.50ms
+[11:52:14.924] Beginning local frame 546
+[11:52:14.940]   Pumping messages for window 0
+[11:52:14.941]   Pumping messages for window 1
+[11:52:14.941] Frame took 17.06ms
+[11:52:14.941] Beginning local frame 547
+[11:52:14.957]   Pumping messages for window 0
+[11:52:14.957]   Pumping messages for window 1
+[11:52:14.957] Frame took 15.78ms
+[11:52:14.957] Beginning local frame 548
+[11:52:14.973]   Pumping messages for window 0
+[11:52:14.973]   Pumping messages for window 1
+[11:52:14.973] Frame took 16.42ms
+[11:52:14.973] Beginning local frame 549
+[11:52:14.990]   Pumping messages for window 0
+[11:52:14.990]   Pumping messages for window 1
+[11:52:14.990] Frame took 16.85ms
+[11:52:14.990] Beginning local frame 550
+[11:52:15.006]   Pumping messages for window 0
+[11:52:15.007]   Pumping messages for window 1
+[11:52:15.007] Frame took 16.40ms
+[11:52:15.007] Beginning local frame 551
+[11:52:15.023]   Pumping messages for window 0
+[11:52:15.023]   Pumping messages for window 1
+[11:52:15.023] Frame took 16.60ms
+[11:52:15.023] Beginning local frame 552
+[11:52:15.040]   Pumping messages for window 0
+[11:52:15.040]   Pumping messages for window 1
+[11:52:15.040] Frame took 16.70ms
+[11:52:15.040] Beginning local frame 553
+[11:52:15.057]   Pumping messages for window 0
+[11:52:15.057]   Pumping messages for window 1
+[11:52:15.057] Frame took 16.80ms
+[11:52:15.057] Beginning local frame 554
+[11:52:15.073]   Pumping messages for window 0
+[11:52:15.073]   Pumping messages for window 1
+[11:52:15.073] Frame took 16.49ms
+[11:52:15.073] Beginning local frame 555
+[11:52:15.090]   Pumping messages for window 0
+[11:52:15.090]   Pumping messages for window 1
+[11:52:15.090] Frame took 16.74ms
+[11:52:15.090] Beginning local frame 556
+[11:52:15.107]   Pumping messages for window 0
+[11:52:15.107]   Pumping messages for window 1
+[11:52:15.107] Frame took 16.81ms
+[11:52:15.107] Beginning local frame 557
+[11:52:15.123]   Pumping messages for window 0
+[11:52:15.123]   Pumping messages for window 1
+[11:52:15.123] Frame took 16.54ms
+[11:52:15.123] Beginning local frame 558
+[11:52:15.140]   Pumping messages for window 0
+[11:52:15.140]   Pumping messages for window 1
+[11:52:15.140] Frame took 16.58ms
+[11:52:15.140] Beginning local frame 559
+[11:52:15.156]   Pumping messages for window 0
+[11:52:15.157]   Pumping messages for window 1
+[11:52:15.158] Frame took 17.93ms
+[11:52:15.158] Beginning local frame 560
+[11:52:15.173]   Pumping messages for window 0
+[11:52:15.173]   Pumping messages for window 1
+[11:52:15.173] Frame took 15.40ms
+[11:52:15.173] Beginning local frame 561
+[11:52:15.190]   Pumping messages for window 0
+[11:52:15.190]   Pumping messages for window 1
+[11:52:15.190] Frame took 17.02ms
+[11:52:15.190] Beginning local frame 562
+[11:52:15.206]   Pumping messages for window 0
+[11:52:15.206]   Pumping messages for window 1
+[11:52:15.206] Frame took 16.13ms
+[11:52:15.206] Beginning local frame 563
+[11:52:15.223]   Pumping messages for window 0
+[11:52:15.223]   Pumping messages for window 1
+[11:52:15.223] Frame took 16.61ms
+[11:52:15.223] Beginning local frame 564
+[11:52:15.240]   Pumping messages for window 0
+[11:52:15.240]   Pumping messages for window 1
+[11:52:15.240] Frame took 16.76ms
+[11:52:15.240] Beginning local frame 565
+[11:52:15.256]   Pumping messages for window 0
+[11:52:15.256]   Pumping messages for window 1
+[11:52:15.256] Frame took 16.56ms
+[11:52:15.256] Beginning local frame 566
+[11:52:15.273]   Pumping messages for window 0
+[11:52:15.273]   Pumping messages for window 1
+[11:52:15.273] Frame took 16.49ms
+[11:52:15.273] Beginning local frame 567
+[11:52:15.289]   Pumping messages for window 0
+[11:52:15.290]   Pumping messages for window 1
+[11:52:15.290] Frame took 16.82ms
+[11:52:15.290] Beginning local frame 568
+[11:52:15.306]   Pumping messages for window 0
+[11:52:15.306]   Pumping messages for window 1
+[11:52:15.306] Frame took 16.71ms
+[11:52:15.306] Beginning local frame 569
+[11:52:15.323]   Pumping messages for window 0
+[11:52:15.323]   Pumping messages for window 1
+[11:52:15.323] Frame took 16.68ms
+[11:52:15.323] Beginning local frame 570
+[11:52:15.339]   Pumping messages for window 0
+[11:52:15.339]   Pumping messages for window 1
+[11:52:15.339] Frame took 16.39ms
+[11:52:15.339] Beginning local frame 571
+[11:52:15.356]   Pumping messages for window 0
+[11:52:15.356]   Pumping messages for window 1
+[11:52:15.356] Frame took 16.59ms
+[11:52:15.356] Beginning local frame 572
+[11:52:15.373]   Pumping messages for window 0
+[11:52:15.373]   Pumping messages for window 1
+[11:52:15.373] Frame took 16.88ms
+[11:52:15.373] Beginning local frame 573
+[11:52:15.389]   Pumping messages for window 0
+[11:52:15.389]   Pumping messages for window 1
+[11:52:15.389] Frame took 16.48ms
+[11:52:15.389] Beginning local frame 574
+[11:52:15.406]   Pumping messages for window 0
+[11:52:15.406]   Pumping messages for window 1
+[11:52:15.406] Frame took 16.58ms
+[11:52:15.406] Beginning local frame 575
+[11:52:15.422]   Pumping messages for window 0
+[11:52:15.423]   Pumping messages for window 1
+[11:52:15.423] Frame took 16.75ms
+[11:52:15.423] Beginning local frame 576
+[11:52:15.439]   Pumping messages for window 0
+[11:52:15.439]   Pumping messages for window 1
+[11:52:15.439] Frame took 16.51ms
+[11:52:15.439] Beginning local frame 577
+[11:52:15.456]   Pumping messages for window 0
+[11:52:15.456]   Pumping messages for window 1
+[11:52:15.456] Frame took 16.67ms
+[11:52:15.456] Beginning local frame 578
+[11:52:15.472]   Pumping messages for window 0
+[11:52:15.473]   Pumping messages for window 1
+[11:52:15.473] Frame took 16.69ms
+[11:52:15.473] Beginning local frame 579
+[11:52:15.489]   Pumping messages for window 0
+[11:52:15.489]   Pumping messages for window 1
+[11:52:15.489] Frame took 16.81ms
+[11:52:15.489] Beginning local frame 580
+[11:52:15.506]   Pumping messages for window 0
+[11:52:15.506]   Pumping messages for window 1
+[11:52:15.506] Frame took 16.72ms
+[11:52:15.506] Beginning local frame 581
+[11:52:15.522]   Pumping messages for window 0
+[11:52:15.523]   Pumping messages for window 1
+[11:52:15.523] Frame took 16.59ms
+[11:52:15.523] Beginning local frame 582
+[11:52:15.539]   Pumping messages for window 0
+[11:52:15.539]   Pumping messages for window 1
+[11:52:15.539] Frame took 16.56ms
+[11:52:15.539] Beginning local frame 583
+[11:52:15.556]   Pumping messages for window 0
+[11:52:15.556]   Pumping messages for window 1
+[11:52:15.556] Frame took 16.63ms
+[11:52:15.556] Beginning local frame 584
+[11:52:15.572]   Pumping messages for window 0
+[11:52:15.572]   Pumping messages for window 1
+[11:52:15.572] Frame took 16.60ms
+[11:52:15.572] Beginning local frame 585
+[11:52:15.589]   Pumping messages for window 0
+[11:52:15.589]   Pumping messages for window 1
+[11:52:15.589] Frame took 16.72ms
+[11:52:15.589] Beginning local frame 586
+[11:52:15.605]   Pumping messages for window 0
+[11:52:15.606]   Pumping messages for window 1
+[11:52:15.606] Frame took 16.41ms
+[11:52:15.606] Beginning local frame 587
+[11:52:15.622]   Pumping messages for window 0
+[11:52:15.622]   Pumping messages for window 1
+[11:52:15.622] Frame took 16.79ms
+[11:52:15.622] Beginning local frame 588
+[11:52:15.639]   Pumping messages for window 0
+[11:52:15.639]   Pumping messages for window 1
+[11:52:15.639] Frame took 16.52ms
+[11:52:15.639] Beginning local frame 589
+[11:52:15.655]   Pumping messages for window 0
+[11:52:15.656]   Pumping messages for window 1
+[11:52:15.656] Frame took 16.72ms
+[11:52:15.656] Beginning local frame 590
+[11:52:15.672]   Pumping messages for window 0
+[11:52:15.672]   Pumping messages for window 1
+[11:52:15.672] Frame took 16.75ms
+[11:52:15.672] Beginning local frame 591
+[11:52:15.689]   Pumping messages for window 0
+[11:52:15.689]   Pumping messages for window 1
+[11:52:15.689] Frame took 16.51ms
+[11:52:15.689] Beginning local frame 592
+[11:52:15.705]   Pumping messages for window 0
+[11:52:15.705]   Pumping messages for window 1
+[11:52:15.705] Frame took 16.55ms
+[11:52:15.705] Beginning local frame 593
+[11:52:15.722]   Pumping messages for window 0
+[11:52:15.722]   Pumping messages for window 1
+[11:52:15.722] Frame took 16.60ms
+[11:52:15.722] Beginning local frame 594
+[11:52:15.739]   Pumping messages for window 0
+[11:52:15.739]   Pumping messages for window 1
+[11:52:15.739] Frame took 16.83ms
+[11:52:15.739] Beginning local frame 595
+[11:52:15.755]   Pumping messages for window 0
+[11:52:15.755]   Pumping messages for window 1
+[11:52:15.755] Frame took 16.47ms
+[11:52:15.755] Beginning local frame 596
+[11:52:15.772]   Pumping messages for window 0
+[11:52:15.772]   Pumping messages for window 1
+[11:52:15.772] Frame took 16.94ms
+[11:52:15.772] Beginning local frame 597
+[11:52:15.789]   Pumping messages for window 0
+[11:52:15.789]   Pumping messages for window 1
+[11:52:15.789] Frame took 16.61ms
+[11:52:15.789] Beginning local frame 598
+[11:52:15.805]   Pumping messages for window 0
+[11:52:15.805]   Pumping messages for window 1
+[11:52:15.805] Frame took 16.47ms
+[11:52:15.805] Beginning local frame 599
+[11:52:15.822]   Pumping messages for window 0
+[11:52:15.822]   Pumping messages for window 1
+[11:52:15.822] Frame took 16.77ms
+[11:52:15.822] Beginning local frame 600
+[11:52:15.839]   Pumping messages for window 0
+[11:52:15.839]   Pumping messages for window 1
+[11:52:15.839] Frame took 16.66ms
+[11:52:15.839] Beginning local frame 601
+[11:52:15.855]   Pumping messages for window 0
+[11:52:15.855]   Pumping messages for window 1
+[11:52:15.855] Frame took 16.57ms
+[11:52:15.855] Beginning local frame 602
+[11:52:15.872]   Pumping messages for window 0
+[11:52:15.872]   Pumping messages for window 1
+[11:52:15.872] Frame took 16.54ms
+[11:52:15.872] Beginning local frame 603
+[11:52:15.889]   Pumping messages for window 0
+[11:52:15.889]   Pumping messages for window 1
+[11:52:15.889] Frame took 16.87ms
+[11:52:15.889] Beginning local frame 604
+[11:52:15.905]   Pumping messages for window 0
+[11:52:15.905]   Pumping messages for window 1
+[11:52:15.905] Frame took 16.60ms
+[11:52:15.905] Beginning local frame 605
+[11:52:15.922]   Pumping messages for window 0
+[11:52:15.922]   Pumping messages for window 1
+[11:52:15.923] Frame took 17.72ms
+[11:52:15.923] Beginning local frame 606
+[11:52:15.938]   Pumping messages for window 0
+[11:52:15.938]   Pumping messages for window 1
+[11:52:15.939] Frame took 15.48ms
+[11:52:15.939] Beginning local frame 607
+[11:52:15.955]   Pumping messages for window 0
+[11:52:15.955]   Pumping messages for window 1
+[11:52:15.955] Frame took 16.44ms
+[11:52:15.955] Beginning local frame 608
+[11:52:15.972]   Pumping messages for window 0
+[11:52:15.972]   Pumping messages for window 1
+[11:52:15.972] Frame took 16.96ms
+[11:52:15.972] Beginning local frame 609
+[11:52:15.988]   Pumping messages for window 0
+[11:52:15.989]   Pumping messages for window 1
+[11:52:15.989] Frame took 16.61ms
+[11:52:15.989] Beginning local frame 610
+[11:52:16.005]   Pumping messages for window 0
+[11:52:16.005]   Pumping messages for window 1
+[11:52:16.005] Frame took 16.58ms
+[11:52:16.005] Beginning local frame 611
+[11:52:16.022]   Pumping messages for window 0
+[11:52:16.022]   Pumping messages for window 1
+[11:52:16.022] Frame took 16.67ms
+[11:52:16.022] Beginning local frame 612
+[11:52:16.038]   Pumping messages for window 0
+[11:52:16.038]   Pumping messages for window 1
+[11:52:16.039] Frame took 16.72ms
+[11:52:16.039] Beginning local frame 613
+[11:52:16.055]   Pumping messages for window 0
+[11:52:16.055]   Pumping messages for window 1
+[11:52:16.055] Frame took 16.79ms
+[11:52:16.055] Beginning local frame 614
+[11:52:16.071]   Pumping messages for window 0
+[11:52:16.072]   Pumping messages for window 1
+[11:52:16.072] Frame took 16.29ms
+[11:52:16.072] Beginning local frame 615
+[11:52:16.088]   Pumping messages for window 0
+[11:52:16.088]   Pumping messages for window 1
+[11:52:16.088] Frame took 16.64ms
+[11:52:16.088] Beginning local frame 616
+[11:52:16.105]   Pumping messages for window 0
+[11:52:16.105]   Pumping messages for window 1
+[11:52:16.105] Frame took 16.82ms
+[11:52:16.105] Beginning local frame 617
+[11:52:16.121]   Pumping messages for window 0
+[11:52:16.121]   Pumping messages for window 1
+[11:52:16.122] Frame took 16.47ms
+[11:52:16.122] Beginning local frame 618
+[11:52:16.138]   Pumping messages for window 0
+[11:52:16.138]   Pumping messages for window 1
+[11:52:16.138] Frame took 16.66ms
+[11:52:16.138] Beginning local frame 619
+[11:52:16.155]   Pumping messages for window 0
+[11:52:16.155]   Pumping messages for window 1
+[11:52:16.155] Frame took 17.20ms
+[11:52:16.155] Beginning local frame 620
+[11:52:16.171]   Pumping messages for window 0
+[11:52:16.171]   Pumping messages for window 1
+[11:52:16.171] Frame took 16.08ms
+[11:52:16.171] Beginning local frame 621
+[11:52:16.188]   Pumping messages for window 0
+[11:52:16.188]   Pumping messages for window 1
+[11:52:16.188] Frame took 16.61ms
+[11:52:16.188] Beginning local frame 622
+[11:52:16.205]   Pumping messages for window 0
+[11:52:16.205]   Pumping messages for window 1
+[11:52:16.205] Frame took 16.78ms
+[11:52:16.205] Beginning local frame 623
+[11:52:16.221]   Pumping messages for window 0
+[11:52:16.221]   Pumping messages for window 1
+[11:52:16.221] Frame took 16.65ms
+[11:52:16.222] Beginning local frame 624
+[11:52:16.238]   Pumping messages for window 0
+[11:52:16.238]   Pumping messages for window 1
+[11:52:16.238] Frame took 16.43ms
+[11:52:16.238] Beginning local frame 625
+[11:52:16.255]   Pumping messages for window 0
+[11:52:16.255]   Pumping messages for window 1
+[11:52:16.255] Frame took 16.77ms
+[11:52:16.255] Beginning local frame 626
+[11:52:16.271]   Pumping messages for window 0
+[11:52:16.271]   Pumping messages for window 1
+[11:52:16.271] Frame took 16.64ms
+[11:52:16.271] Beginning local frame 627
+[11:52:16.288]   Pumping messages for window 0
+[11:52:16.288]   Pumping messages for window 1
+[11:52:16.288] Frame took 16.57ms
+[11:52:16.288] Beginning local frame 628
+[11:52:16.304]   Pumping messages for window 0
+[11:52:16.304]   Pumping messages for window 1
+[11:52:16.305] Frame took 16.61ms
+[11:52:16.305] Beginning local frame 629
+[11:52:16.321]   Pumping messages for window 0
+[11:52:16.321]   Pumping messages for window 1
+[11:52:16.321] Frame took 16.86ms
+[11:52:16.321] Beginning local frame 630
+[11:52:16.338]   Pumping messages for window 0
+[11:52:16.338]   Pumping messages for window 1
+[11:52:16.338] Frame took 16.61ms
+[11:52:16.338] Beginning local frame 631
+[11:52:16.354]   Pumping messages for window 0
+[11:52:16.355]   Pumping messages for window 1
+[11:52:16.355] Frame took 16.61ms
+[11:52:16.355] Beginning local frame 632
+[11:52:16.371]   Pumping messages for window 0
+[11:52:16.371]   Pumping messages for window 1
+[11:52:16.371] Frame took 16.50ms
+[11:52:16.371] Beginning local frame 633
+[11:52:16.388]   Pumping messages for window 0
+[11:52:16.388]   Pumping messages for window 1
+[11:52:16.388] Frame took 16.62ms
+[11:52:16.388] Beginning local frame 634
+[11:52:16.404]   Pumping messages for window 0
+[11:52:16.404]   Pumping messages for window 1
+[11:52:16.404] Frame took 16.76ms
+[11:52:16.404] Beginning local frame 635
+[11:52:16.421]   Pumping messages for window 0
+[11:52:16.421]   Pumping messages for window 1
+[11:52:16.421] Frame took 16.60ms
+[11:52:16.421] Beginning local frame 636
+[11:52:16.437]   Pumping messages for window 0
+[11:52:16.437]   Pumping messages for window 1
+[11:52:16.438] Frame took 16.48ms
+[11:52:16.438] Beginning local frame 637
+[11:52:16.454]   Pumping messages for window 0
+[11:52:16.454]   Pumping messages for window 1
+[11:52:16.454] Frame took 16.79ms
+[11:52:16.454] Beginning local frame 638
+[11:52:16.471]   Pumping messages for window 0
+[11:52:16.471]   Pumping messages for window 1
+[11:52:16.471] Frame took 16.55ms
+[11:52:16.471] Beginning local frame 639
+[11:52:16.487]   Pumping messages for window 0
+[11:52:16.487]   Pumping messages for window 1
+[11:52:16.487] Frame took 16.61ms
+[11:52:16.487] Beginning local frame 640
+[11:52:16.504]   Pumping messages for window 0
+[11:52:16.504]   Pumping messages for window 1
+[11:52:16.504] Frame took 16.91ms
+[11:52:16.504] Beginning local frame 641
+[11:52:16.521]   Pumping messages for window 0
+[11:52:16.521]   Pumping messages for window 1
+[11:52:16.521] Frame took 16.52ms
+[11:52:16.521] Beginning local frame 642
+[11:52:16.537]   Pumping messages for window 0
+[11:52:16.537]   Pumping messages for window 1
+[11:52:16.537] Frame took 16.58ms
+[11:52:16.538] Beginning local frame 643
+[11:52:16.554]   Pumping messages for window 0
+[11:52:16.554]   Pumping messages for window 1
+[11:52:16.554] Frame took 16.70ms
+[11:52:16.554] Beginning local frame 644
+[11:52:16.571]   Pumping messages for window 0
+[11:52:16.571]   Pumping messages for window 1
+[11:52:16.571] Frame took 16.58ms
+[11:52:16.571] Beginning local frame 645
+[11:52:16.587]   Pumping messages for window 0
+[11:52:16.587]   Pumping messages for window 1
+[11:52:16.587] Frame took 16.49ms
+[11:52:16.587] Beginning local frame 646
+[11:52:16.604]   Pumping messages for window 0
+[11:52:16.604]   Pumping messages for window 1
+[11:52:16.604] Frame took 17.00ms
+[11:52:16.604] Beginning local frame 647
+[11:52:16.621]   Pumping messages for window 0
+[11:52:16.621]   Pumping messages for window 1
+[11:52:16.621] Frame took 16.62ms
+[11:52:16.621] Beginning local frame 648
+[11:52:16.637]   Pumping messages for window 0
+[11:52:16.637]   Pumping messages for window 1
+[11:52:16.637] Frame took 16.49ms
+[11:52:16.637] Beginning local frame 649
+[11:52:16.654]   Pumping messages for window 0
+[11:52:16.654]   Pumping messages for window 1
+[11:52:16.654] Frame took 16.71ms
+[11:52:16.654] Beginning local frame 650
+[11:52:16.670]   Pumping messages for window 0
+[11:52:16.671]   Pumping messages for window 1
+[11:52:16.671] Frame took 16.57ms
+[11:52:16.671] Beginning local frame 651
+[11:52:16.687]   Pumping messages for window 0
+[11:52:16.687]   Pumping messages for window 1
+[11:52:16.687] Frame took 16.62ms
+[11:52:16.687] Beginning local frame 652
+[11:52:16.704]   Pumping messages for window 0
+[11:52:16.704]   Pumping messages for window 1
+[11:52:16.704] Frame took 16.51ms
+[11:52:16.704] Beginning local frame 653
+[11:52:16.720]   Pumping messages for window 0
+[11:52:16.720]   Pumping messages for window 1
+[11:52:16.721] Frame took 16.73ms
+[11:52:16.721] Beginning local frame 654
+[11:52:16.737]   Pumping messages for window 0
+[11:52:16.737]   Pumping messages for window 1
+[11:52:16.737] Frame took 16.75ms
+[11:52:16.737] Beginning local frame 655
+[11:52:16.754]   Pumping messages for window 0
+[11:52:16.754]   Pumping messages for window 1
+[11:52:16.754] Frame took 16.80ms
+[11:52:16.754] Beginning local frame 656
+[11:52:16.770]   Pumping messages for window 0
+[11:52:16.770]   Pumping messages for window 1
+[11:52:16.771] Frame took 16.45ms
+[11:52:16.771] Beginning local frame 657
+[11:52:16.787]   Pumping messages for window 0
+[11:52:16.787]   Pumping messages for window 1
+[11:52:16.787] Frame took 16.85ms
+[11:52:16.787] Beginning local frame 658
+[11:52:16.804]   Pumping messages for window 0
+[11:52:16.804]   Pumping messages for window 1
+[11:52:16.804] Frame took 16.54ms
+[11:52:16.804] Beginning local frame 659
+[11:52:16.820]   Pumping messages for window 0
+[11:52:16.821]   Pumping messages for window 1
+[11:52:16.821] Frame took 16.67ms
+[11:52:16.821] Beginning local frame 660
+[11:52:16.837]   Pumping messages for window 0
+[11:52:16.837]   Pumping messages for window 1
+[11:52:16.837] Frame took 16.50ms
+[11:52:16.837] Beginning local frame 661
+[11:52:16.854]   Pumping messages for window 0
+[11:52:16.854]   Pumping messages for window 1
+[11:52:16.854] Frame took 16.80ms
+[11:52:16.854] Beginning local frame 662
+[11:52:16.870]   Pumping messages for window 0
+[11:52:16.870]   Pumping messages for window 1
+[11:52:16.870] Frame took 16.40ms
+[11:52:16.870] Beginning local frame 663
+[11:52:16.887]   Pumping messages for window 0
+[11:52:16.887]   Pumping messages for window 1
+[11:52:16.887] Frame took 16.94ms
+[11:52:16.887] Beginning local frame 664
+[11:52:16.904]   Pumping messages for window 0
+[11:52:16.904]   Pumping messages for window 1
+[11:52:16.904] Frame took 16.60ms
+[11:52:16.904] Beginning local frame 665
+[11:52:16.920]   Pumping messages for window 0
+[11:52:16.920]   Pumping messages for window 1
+[11:52:16.920] Frame took 16.41ms
+[11:52:16.920] Beginning local frame 666
+[11:52:16.937]   Pumping messages for window 0
+[11:52:16.937]   Pumping messages for window 1
+[11:52:16.937] Frame took 16.93ms
+[11:52:16.937] Beginning local frame 667
+[11:52:16.953]   Pumping messages for window 0
+[11:52:16.954]   Pumping messages for window 1
+[11:52:16.954] Frame took 16.48ms
+[11:52:16.954] Beginning local frame 668
+[11:52:16.970]   Pumping messages for window 0
+[11:52:16.970]   Pumping messages for window 1
+[11:52:16.970] Frame took 16.80ms
+[11:52:16.970] Beginning local frame 669
+[11:52:16.987]   Pumping messages for window 0
+[11:52:16.987]   Pumping messages for window 1
+[11:52:16.987] Frame took 16.52ms
+[11:52:16.987] Beginning local frame 670
+[11:52:17.003]   Pumping messages for window 0
+[11:52:17.003]   Pumping messages for window 1
+[11:52:17.003] Frame took 16.53ms
+[11:52:17.004] Beginning local frame 671
+[11:52:17.020]   Pumping messages for window 0
+[11:52:17.020]   Pumping messages for window 1
+[11:52:17.020] Frame took 16.61ms
+[11:52:17.020] Beginning local frame 672
+[11:52:17.036]   Pumping messages for window 0
+[11:52:17.037]   Pumping messages for window 1
+[11:52:17.037] Frame took 16.52ms
+[11:52:17.037] Beginning local frame 673
+[11:52:17.053]   Pumping messages for window 0
+[11:52:17.053]   Pumping messages for window 1
+[11:52:17.053] Frame took 16.79ms
+[11:52:17.053] Beginning local frame 674
+[11:52:17.070]   Pumping messages for window 0
+[11:52:17.070]   Pumping messages for window 1
+[11:52:17.070] Frame took 16.64ms
+[11:52:17.070] Beginning local frame 675
+[11:52:17.087]   Pumping messages for window 0
+[11:52:17.087]   Pumping messages for window 1
+[11:52:17.087] Frame took 16.70ms
+[11:52:17.087] Beginning local frame 676
+[11:52:17.103]   Pumping messages for window 0
+[11:52:17.103]   Pumping messages for window 1
+[11:52:17.103] Frame took 16.41ms
+[11:52:17.103] Beginning local frame 677
+[11:52:17.120]   Pumping messages for window 0
+[11:52:17.120]   Pumping messages for window 1
+[11:52:17.120] Frame took 16.79ms
+[11:52:17.120] Beginning local frame 678
+[11:52:17.136]   Pumping messages for window 0
+[11:52:17.136]   Pumping messages for window 1
+[11:52:17.136] Frame took 16.54ms
+[11:52:17.137] Beginning local frame 679
+[11:52:17.153]   Pumping messages for window 0
+[11:52:17.153]   Pumping messages for window 1
+[11:52:17.153] Frame took 16.56ms
+[11:52:17.153] Beginning local frame 680
+[11:52:17.170]   Pumping messages for window 0
+[11:52:17.170]   Pumping messages for window 1
+[11:52:17.170] Frame took 17.06ms
+[11:52:17.170] Beginning local frame 681
+[11:52:17.186]   Pumping messages for window 0
+[11:52:17.186]   Pumping messages for window 1
+[11:52:17.186] Frame took 16.32ms
+[11:52:17.186] Beginning local frame 682
+[11:52:17.203]   Pumping messages for window 0
+[11:52:17.203]   Pumping messages for window 1
+[11:52:17.203] Frame took 16.68ms
+[11:52:17.203] Beginning local frame 683
+[11:52:17.219]   Pumping messages for window 0
+[11:52:17.220]   Pumping messages for window 1
+[11:52:17.220] Frame took 16.48ms
+[11:52:17.220] Beginning local frame 684
+[11:52:17.236]   Pumping messages for window 0
+[11:52:17.236]   Pumping messages for window 1
+[11:52:17.236] Frame took 16.86ms
+[11:52:17.236] Beginning local frame 685
+[11:52:17.253]   Pumping messages for window 0
+[11:52:17.253]   Pumping messages for window 1
+[11:52:17.253] Frame took 16.56ms
+[11:52:17.253] Beginning local frame 686
+[11:52:17.270]   Pumping messages for window 0
+[11:52:17.270]   Pumping messages for window 1
+[11:52:17.270] Frame took 16.70ms
+[11:52:17.270] Beginning local frame 687
+[11:52:17.286]   Pumping messages for window 0
+[11:52:17.286]   Pumping messages for window 1
+[11:52:17.286] Frame took 16.63ms
+[11:52:17.286] Beginning local frame 688
+[11:52:17.303]   Pumping messages for window 0
+[11:52:17.303]   Pumping messages for window 1
+[11:52:17.303] Frame took 16.56ms
+[11:52:17.303] Beginning local frame 689
+[11:52:17.319]   Pumping messages for window 0
+[11:52:17.319]   Pumping messages for window 1
+[11:52:17.319] Frame took 16.60ms
+[11:52:17.320] Beginning local frame 690
+[11:52:17.336]   Pumping messages for window 0
+[11:52:17.336]   Pumping messages for window 1
+[11:52:17.336] Frame took 16.90ms
+[11:52:17.336] Beginning local frame 691
+[11:52:17.353]   Pumping messages for window 0
+[11:52:17.353]   Pumping messages for window 1
+[11:52:17.353] Frame took 16.53ms
+[11:52:17.353] Beginning local frame 692
+[11:52:17.369]   Pumping messages for window 0
+[11:52:17.369]   Pumping messages for window 1
+[11:52:17.369] Frame took 16.53ms
+[11:52:17.369] Beginning local frame 693
+[11:52:17.386]   Pumping messages for window 0
+[11:52:17.386]   Pumping messages for window 1
+[11:52:17.386] Frame took 16.84ms
+[11:52:17.386] Beginning local frame 694
+[11:52:17.403]   Pumping messages for window 0
+[11:52:17.403]   Pumping messages for window 1
+[11:52:17.403] Frame took 16.37ms
+[11:52:17.403] Beginning local frame 695
+[11:52:17.419]   Pumping messages for window 0
+[11:52:17.419]   Pumping messages for window 1
+[11:52:17.419] Frame took 16.75ms
+[11:52:17.419] Beginning local frame 696
+[11:52:17.436]   Pumping messages for window 0
+[11:52:17.436]   Pumping messages for window 1
+[11:52:17.436] Frame took 16.60ms
+[11:52:17.436] Beginning local frame 697
+[11:52:17.452]   Pumping messages for window 0
+[11:52:17.453]   Pumping messages for window 1
+[11:52:17.453] Frame took 16.85ms
+[11:52:17.453] Beginning local frame 698
+[11:52:17.469]   Pumping messages for window 0
+[11:52:17.469]   Pumping messages for window 1
+[11:52:17.469] Frame took 16.51ms
+[11:52:17.469] Beginning local frame 699
+[11:52:17.486]   Pumping messages for window 0
+[11:52:17.486]   Pumping messages for window 1
+[11:52:17.486] Frame took 16.59ms
+[11:52:17.486] Beginning local frame 700
+[11:52:17.502]   Pumping messages for window 0
+[11:52:17.503]   Pumping messages for window 1
+[11:52:17.503] Frame took 16.60ms
+[11:52:17.503] Beginning local frame 701
+[11:52:17.519]   Pumping messages for window 0
+[11:52:17.519]   Pumping messages for window 1
+[11:52:17.519] Frame took 16.77ms
+[11:52:17.519] Beginning local frame 702
+[11:52:17.536]   Pumping messages for window 0
+[11:52:17.536]   Pumping messages for window 1
+[11:52:17.536] Frame took 16.45ms
+[11:52:17.536] Beginning local frame 703
+[11:52:17.552]   Pumping messages for window 0
+[11:52:17.553]   Pumping messages for window 1
+[11:52:17.553] Frame took 16.79ms
+[11:52:17.553] Beginning local frame 704
+[11:52:17.569]   Pumping messages for window 0
+[11:52:17.569]   Pumping messages for window 1
+[11:52:17.569] Frame took 16.56ms
+[11:52:17.569] Beginning local frame 705
+[11:52:17.586]   Pumping messages for window 0
+[11:52:17.586]   Pumping messages for window 1
+[11:52:17.586] Frame took 16.71ms
+[11:52:17.586] Beginning local frame 706
+[11:52:17.602]   Pumping messages for window 0
+[11:52:17.602]   Pumping messages for window 1
+[11:52:17.602] Frame took 16.55ms
+[11:52:17.602] Beginning local frame 707
+[11:52:17.619]   Pumping messages for window 0
+[11:52:17.619]   Pumping messages for window 1
+[11:52:17.619] Frame took 16.70ms
+[11:52:17.619] Beginning local frame 708
+[11:52:17.635]   Pumping messages for window 0
+[11:52:17.636]   Pumping messages for window 1
+[11:52:17.636] Frame took 16.51ms
+[11:52:17.636] Beginning local frame 709
+[11:52:17.653]   Pumping messages for window 0
+[11:52:17.653]   Pumping messages for window 1
+[11:52:17.653] Frame took 17.65ms
+[11:52:17.653] Beginning local frame 710
+[11:52:17.669]   Pumping messages for window 0
+[11:52:17.669]   Pumping messages for window 1
+[11:52:17.669] Frame took 15.69ms
+[11:52:17.669] Beginning local frame 711
+[11:52:17.685]   Pumping messages for window 0
+[11:52:17.686]   Pumping messages for window 1
+[11:52:17.686] Frame took 16.62ms
+[11:52:17.686] Beginning local frame 712
+[11:52:17.702]   Pumping messages for window 0
+[11:52:17.702]   Pumping messages for window 1
+[11:52:17.702] Frame took 16.79ms
+[11:52:17.702] Beginning local frame 713
+[11:52:17.719]   Pumping messages for window 0
+[11:52:17.719]   Pumping messages for window 1
+[11:52:17.719] Frame took 16.53ms
+[11:52:17.719] Beginning local frame 714
+[11:52:17.736]   Pumping messages for window 0
+[11:52:17.736]   Pumping messages for window 1
+[11:52:17.736] Frame took 16.76ms
+[11:52:17.736] Beginning local frame 715
+[11:52:17.752]   Pumping messages for window 0
+[11:52:17.752]   Pumping messages for window 1
+[11:52:17.752] Frame took 16.62ms
+[11:52:17.752] Beginning local frame 716
+[11:52:17.769]   Pumping messages for window 0
+[11:52:17.769]   Pumping messages for window 1
+[11:52:17.769] Frame took 16.47ms
+[11:52:17.769] Beginning local frame 717
+[11:52:17.785]   Pumping messages for window 0
+[11:52:17.785]   Pumping messages for window 1
+[11:52:17.785] Frame took 16.71ms
+[11:52:17.785] Beginning local frame 718
+[11:52:17.802]   Pumping messages for window 0
+[11:52:17.802]   Pumping messages for window 1
+[11:52:17.802] Frame took 16.72ms
+[11:52:17.802] Beginning local frame 719
+[11:52:17.819]   Pumping messages for window 0
+[11:52:17.819]   Pumping messages for window 1
+[11:52:17.819] Frame took 16.50ms
+[11:52:17.819] Beginning local frame 720
+[11:52:17.835]   Pumping messages for window 0
+[11:52:17.835]   Pumping messages for window 1
+[11:52:17.835] Frame took 16.67ms
+[11:52:17.835] Beginning local frame 721
+[11:52:17.852]   Pumping messages for window 0
+[11:52:17.852]   Pumping messages for window 1
+[11:52:17.852] Frame took 16.70ms
+[11:52:17.852] Beginning local frame 722
+[11:52:17.869]   Pumping messages for window 0
+[11:52:17.869]   Pumping messages for window 1
+[11:52:17.869] Frame took 16.74ms
+[11:52:17.869] Beginning local frame 723
+[11:52:17.885]   Pumping messages for window 0
+[11:52:17.885]   Pumping messages for window 1
+[11:52:17.885] Frame took 16.61ms
+[11:52:17.885] Beginning local frame 724
+[11:52:17.902]   Pumping messages for window 0
+[11:52:17.902]   Pumping messages for window 1
+[11:52:17.902] Frame took 16.96ms
+[11:52:17.902] Beginning local frame 725
+[11:52:17.919]   Pumping messages for window 0
+[11:52:17.919]   Pumping messages for window 1
+[11:52:17.919] Frame took 16.42ms
+[11:52:17.919] Beginning local frame 726
+[11:52:17.935]   Pumping messages for window 0
+[11:52:17.935]   Pumping messages for window 1
+[11:52:17.935] Frame took 16.33ms
+[11:52:17.935] Beginning local frame 727
+[11:52:17.952]   Pumping messages for window 0
+[11:52:17.952]   Pumping messages for window 1
+[11:52:17.952] Frame took 16.82ms
+[11:52:17.952] Beginning local frame 728
+[11:52:17.968]   Pumping messages for window 0
+[11:52:17.968]   Pumping messages for window 1
+[11:52:17.968] Frame took 16.54ms
+[11:52:17.969] Beginning local frame 729
+[11:52:17.985]   Pumping messages for window 0
+[11:52:17.985]   Pumping messages for window 1
+[11:52:17.985] Frame took 16.68ms
+[11:52:17.985] Beginning local frame 730
+[11:52:18.002]   Pumping messages for window 0
+[11:52:18.002]   Pumping messages for window 1
+[11:52:18.002] Frame took 16.58ms
+[11:52:18.002] Beginning local frame 731
+[11:52:18.018]   Pumping messages for window 0
+[11:52:18.018]   Pumping messages for window 1
+[11:52:18.018] Frame took 16.56ms
+[11:52:18.018] Beginning local frame 732
+[11:52:18.035]   Pumping messages for window 0
+[11:52:18.035]   Pumping messages for window 1
+[11:52:18.035] Frame took 16.82ms
+[11:52:18.035] Beginning local frame 733
+[11:52:18.052]   Pumping messages for window 0
+[11:52:18.052]   Pumping messages for window 1
+[11:52:18.052] Frame took 16.56ms
+[11:52:18.052] Beginning local frame 734
+[11:52:18.068]   Pumping messages for window 0
+[11:52:18.069]   Pumping messages for window 1
+[11:52:18.069] Frame took 16.89ms
+[11:52:18.069] Beginning local frame 735
+[11:52:18.085]   Pumping messages for window 0
+[11:52:18.085]   Pumping messages for window 1
+[11:52:18.085] Frame took 16.39ms
+[11:52:18.085] Beginning local frame 736
+[11:52:18.102]   Pumping messages for window 0
+[11:52:18.102]   Pumping messages for window 1
+[11:52:18.102] Frame took 16.72ms
+[11:52:18.102] Beginning local frame 737
+[11:52:18.118]   Pumping messages for window 0
+[11:52:18.118]   Pumping messages for window 1
+[11:52:18.118] Frame took 16.57ms
+[11:52:18.118] Beginning local frame 738
+[11:52:18.135]   Pumping messages for window 0
+[11:52:18.135]   Pumping messages for window 1
+[11:52:18.135] Frame took 16.80ms
+[11:52:18.135] Beginning local frame 739
+[11:52:18.151]   Pumping messages for window 0
+[11:52:18.151]   Pumping messages for window 1
+[11:52:18.151] Frame took 16.45ms
+[11:52:18.152] Beginning local frame 740
+[11:52:18.168]   Pumping messages for window 0
+[11:52:18.168]   Pumping messages for window 1
+[11:52:18.168] Frame took 16.86ms
+[11:52:18.168] Beginning local frame 741
+[11:52:18.185]   Pumping messages for window 0
+[11:52:18.185]   Pumping messages for window 1
+[11:52:18.185] Frame took 16.52ms
+[11:52:18.185] Beginning local frame 742
+[11:52:18.201]   Pumping messages for window 0
+[11:52:18.202]   Pumping messages for window 1
+[11:52:18.202] Frame took 16.67ms
+[11:52:18.202] Beginning local frame 743
+[11:52:18.218]   Pumping messages for window 0
+[11:52:18.218]   Pumping messages for window 1
+[11:52:18.218] Frame took 16.52ms
+[11:52:18.218] Beginning local frame 744
+[11:52:18.235]   Pumping messages for window 0
+[11:52:18.235]   Pumping messages for window 1
+[11:52:18.235] Frame took 16.77ms
+[11:52:18.235] Beginning local frame 745
+[11:52:18.251]   Pumping messages for window 0
+[11:52:18.251]   Pumping messages for window 1
+[11:52:18.251] Frame took 16.67ms
+[11:52:18.252] Beginning local frame 746
+[11:52:18.268]   Pumping messages for window 0
+[11:52:18.268]   Pumping messages for window 1
+[11:52:18.268] Frame took 16.58ms
+[11:52:18.268] Beginning local frame 747
+[11:52:18.285]   Pumping messages for window 0
+[11:52:18.285]   Pumping messages for window 1
+[11:52:18.285] Frame took 16.62ms
+[11:52:18.285] Beginning local frame 748
+[11:52:18.301]   Pumping messages for window 0
+[11:52:18.301]   Pumping messages for window 1
+[11:52:18.301] Frame took 16.53ms
+[11:52:18.301] Beginning local frame 749
+[11:52:18.318]   Pumping messages for window 0
+[11:52:18.318]   Pumping messages for window 1
+[11:52:18.318] Frame took 17.15ms
+[11:52:18.318] Beginning local frame 750
+[11:52:18.335]   Pumping messages for window 0
+[11:52:18.335]   Pumping messages for window 1
+[11:52:18.335] Frame took 16.28ms
+[11:52:18.335] Beginning local frame 751
+[11:52:18.351]   Pumping messages for window 0
+[11:52:18.351]   Pumping messages for window 1
+[11:52:18.351] Frame took 16.72ms
+[11:52:18.351] Beginning local frame 752
+[11:52:18.368]   Pumping messages for window 0
+[11:52:18.368]   Pumping messages for window 1
+[11:52:18.368] Frame took 16.56ms
+[11:52:18.368] Beginning local frame 753
+[11:52:18.384]   Pumping messages for window 0
+[11:52:18.384]   Pumping messages for window 1
+[11:52:18.384] Frame took 16.53ms
+[11:52:18.385] Beginning local frame 754
+[11:52:18.401]   Pumping messages for window 0
+[11:52:18.401]   Pumping messages for window 1
+[11:52:18.402] Frame took 17.14ms
+[11:52:18.402] Beginning local frame 755
+[11:52:18.418]   Pumping messages for window 0
+[11:52:18.418]   Pumping messages for window 1
+[11:52:18.418] Frame took 16.18ms
+[11:52:18.418] Beginning local frame 756
+[11:52:18.434]   Pumping messages for window 0
+[11:52:18.435]   Pumping messages for window 1
+[11:52:18.435] Frame took 17.02ms
+[11:52:18.435] Beginning local frame 757
+[11:52:18.451]   Pumping messages for window 0
+[11:52:18.451]   Pumping messages for window 1
+[11:52:18.451] Frame took 16.20ms
+[11:52:18.451] Beginning local frame 758
+[11:52:18.468]   Pumping messages for window 0
+[11:52:18.468]   Pumping messages for window 1
+[11:52:18.468] Frame took 16.66ms
+[11:52:18.468] Beginning local frame 759
+[11:52:18.484]   Pumping messages for window 0
+[11:52:18.484]   Pumping messages for window 1
+[11:52:18.484] Frame took 16.66ms
+[11:52:18.484] Beginning local frame 760
+[11:52:18.501]   Pumping messages for window 0
+[11:52:18.501]   Pumping messages for window 1
+[11:52:18.501] Frame took 16.76ms
+[11:52:18.501] Beginning local frame 761
+[11:52:18.517]   Pumping messages for window 0
+[11:52:18.518]   Pumping messages for window 1
+[11:52:18.518] Frame took 16.54ms
+[11:52:18.518] Beginning local frame 762
+[11:52:18.534]   Pumping messages for window 0
+[11:52:18.534]   Pumping messages for window 1
+[11:52:18.534] Frame took 16.64ms
+[11:52:18.534] Beginning local frame 763
+[11:52:18.551]   Pumping messages for window 0
+[11:52:18.551]   Pumping messages for window 1
+[11:52:18.551] Frame took 16.84ms
+[11:52:18.551] Beginning local frame 764
+[11:52:18.567]   Pumping messages for window 0
+[11:52:18.567]   Pumping messages for window 1
+[11:52:18.567] Frame took 16.37ms
+[11:52:18.568] Beginning local frame 765
+[11:52:18.584]   Pumping messages for window 0
+[11:52:18.584]   Pumping messages for window 1
+[11:52:18.584] Frame took 16.61ms
+[11:52:18.584] Beginning local frame 766
+[11:52:18.601]   Pumping messages for window 0
+[11:52:18.601]   Pumping messages for window 1
+[11:52:18.601] Frame took 16.76ms
+[11:52:18.601] Beginning local frame 767
+[11:52:18.617]   Pumping messages for window 0
+[11:52:18.618]   Pumping messages for window 1
+[11:52:18.618] Frame took 16.75ms
+[11:52:18.618] Beginning local frame 768
+[11:52:18.634]   Pumping messages for window 0
+[11:52:18.634]   Pumping messages for window 1
+[11:52:18.634] Frame took 16.88ms
+[11:52:18.635] Beginning local frame 769
+[11:52:18.651]   Pumping messages for window 0
+[11:52:18.651]   Pumping messages for window 1
+[11:52:18.651] Frame took 16.81ms
+[11:52:18.651] Beginning local frame 770
+[11:52:18.667]   Pumping messages for window 0
+[11:52:18.667]   Pumping messages for window 1
+[11:52:18.667] Frame took 15.98ms
+[11:52:18.667] Beginning local frame 771
+[11:52:18.684]   Pumping messages for window 0
+[11:52:18.684]   Pumping messages for window 1
+[11:52:18.684] Frame took 16.93ms
+[11:52:18.684] Beginning local frame 772
+[11:52:18.701]   Pumping messages for window 0
+[11:52:18.701]   Pumping messages for window 1
+[11:52:18.701] Frame took 16.46ms
+[11:52:18.701] Beginning local frame 773
+[11:52:18.717]   Pumping messages for window 0
+[11:52:18.718]   Pumping messages for window 1
+[11:52:18.718] Frame took 17.04ms
+[11:52:18.718] Beginning local frame 774
+[11:52:18.734]   Pumping messages for window 0
+[11:52:18.734]   Pumping messages for window 1
+[11:52:18.734] Frame took 16.38ms
+[11:52:18.734] Beginning local frame 775
+[11:52:18.751]   Pumping messages for window 0
+[11:52:18.751]   Pumping messages for window 1
+[11:52:18.751] Frame took 16.75ms
+[11:52:18.751] Beginning local frame 776
+[11:52:18.767]   Pumping messages for window 0
+[11:52:18.767]   Pumping messages for window 1
+[11:52:18.767] Frame took 16.48ms
+[11:52:18.767] Beginning local frame 777
+[11:52:18.784]   Pumping messages for window 0
+[11:52:18.784]   Pumping messages for window 1
+[11:52:18.784] Frame took 16.60ms
+[11:52:18.784] Beginning local frame 778
+[11:52:18.800]   Pumping messages for window 0
+[11:52:18.800]   Pumping messages for window 1
+[11:52:18.800] Frame took 16.53ms
+[11:52:18.800] Beginning local frame 779
+[11:52:18.817]   Pumping messages for window 0
+[11:52:18.817]   Pumping messages for window 1
+[11:52:18.817] Frame took 16.66ms
+[11:52:18.817] Beginning local frame 780
+[11:52:18.834]   Pumping messages for window 0
+[11:52:18.834]   Pumping messages for window 1
+[11:52:18.834] Frame took 16.92ms
+[11:52:18.834] Beginning local frame 781
+[11:52:18.850]   Pumping messages for window 0
+[11:52:18.850]   Pumping messages for window 1
+[11:52:18.851] Frame took 16.50ms
+[11:52:18.851] Beginning local frame 782
+[11:52:18.867]   Pumping messages for window 0
+[11:52:18.868]   Pumping messages for window 1
+[11:52:18.868] Frame took 17.43ms
+[11:52:18.868] Beginning local frame 783
+[11:52:18.884]   Pumping messages for window 0
+[11:52:18.884]   Pumping messages for window 1
+[11:52:18.884] Frame took 15.90ms
+[11:52:18.884] Beginning local frame 784
+[11:52:18.900]   Pumping messages for window 0
+[11:52:18.900]   Pumping messages for window 1
+[11:52:18.900] Frame took 16.49ms
+[11:52:18.900] Beginning local frame 785
+[11:52:18.917]   Pumping messages for window 0
+[11:52:18.917]   Pumping messages for window 1
+[11:52:18.917] Frame took 16.86ms
+[11:52:18.917] Beginning local frame 786
+[11:52:18.934]   Pumping messages for window 0
+[11:52:18.935]   Pumping messages for window 1
+[11:52:18.935] Frame took 18.23ms
+[11:52:18.935] Beginning local frame 787
+[11:52:18.950]   Pumping messages for window 0
+[11:52:18.950]   Pumping messages for window 1
+[11:52:18.951] Frame took 15.05ms
+[11:52:18.951] Beginning local frame 788
+[11:52:18.951]   Pumping messages for window 0
+[11:52:18.951]   Pumping messages for window 1
+[11:52:18.951] Frame took 0.74ms
+[11:52:18.951] Beginning local frame 789
+[11:52:18.984]   Pumping messages for window 0
+[11:52:18.984]   Pumping messages for window 1
+[11:52:18.984] Frame took 32.61ms
+[11:52:18.984] Beginning local frame 790
+[11:52:19.000]   Pumping messages for window 0
+[11:52:19.000]   Pumping messages for window 1
+[11:52:19.000] Frame took 16.62ms
+[11:52:19.001] Beginning local frame 791
+[11:52:19.017]   Pumping messages for window 0
+[11:52:19.017]   Pumping messages for window 1
+[11:52:19.017] Frame took 16.73ms
+[11:52:19.017] Beginning local frame 792
+[11:52:19.034]   Pumping messages for window 0
+[11:52:19.034]   Pumping messages for window 1
+[11:52:19.034] Frame took 16.60ms
+[11:52:19.034] Beginning local frame 793
+[11:52:19.050]   Pumping messages for window 0
+[11:52:19.051]   Pumping messages for window 1
+[11:52:19.051] Frame took 16.82ms
+[11:52:19.051] Beginning local frame 794
+[11:52:19.067]   Pumping messages for window 0
+[11:52:19.067]   Pumping messages for window 1
+[11:52:19.067] Frame took 16.55ms
+[11:52:19.067] Beginning local frame 795
+[11:52:19.083]   Pumping messages for window 0
+[11:52:19.083]   Pumping messages for window 1
+[11:52:19.083] Frame took 16.28ms
+[11:52:19.083] Beginning local frame 796
+[11:52:19.100]   Pumping messages for window 0
+[11:52:19.100]   Pumping messages for window 1
+[11:52:19.101] Frame took 17.26ms
+[11:52:19.101] Beginning local frame 797
+[11:52:19.117]   Pumping messages for window 0
+[11:52:19.118]   Pumping messages for window 1
+[11:52:19.118] Frame took 17.05ms
+[11:52:19.118] Beginning local frame 798
+[11:52:19.134]   Pumping messages for window 0
+[11:52:19.134]   Pumping messages for window 1
+[11:52:19.134] Frame took 16.12ms
+[11:52:19.134] Beginning local frame 799
+[11:52:19.150]   Pumping messages for window 0
+[11:52:19.151]   Pumping messages for window 1
+[11:52:19.151] Frame took 16.90ms
+[11:52:19.151] Beginning local frame 800
+[11:52:19.167]   Pumping messages for window 0
+[11:52:19.168]   Pumping messages for window 1
+[11:52:19.168] Frame took 16.80ms
+[11:52:19.168] Beginning local frame 801
+[11:52:19.184]   Pumping messages for window 0
+[11:52:19.184]   Pumping messages for window 1
+[11:52:19.184] Frame took 16.37ms
+[11:52:19.184] Beginning local frame 802
+[11:52:19.200]   Pumping messages for window 0
+[11:52:19.201]   Pumping messages for window 1
+[11:52:19.201] Frame took 16.83ms
+[11:52:19.201] Beginning local frame 803
+[11:52:19.217]   Pumping messages for window 0
+[11:52:19.217]   Pumping messages for window 1
+[11:52:19.217] Frame took 16.38ms
+[11:52:19.217] Beginning local frame 804
+[11:52:19.234]   Pumping messages for window 0
+[11:52:19.234]   Pumping messages for window 1
+[11:52:19.234] Frame took 16.93ms
+[11:52:19.234] Beginning local frame 805
+[11:52:19.250]   Pumping messages for window 0
+[11:52:19.251]   Pumping messages for window 1
+[11:52:19.251] Frame took 16.50ms
+[11:52:19.251] Beginning local frame 806
+[11:52:19.267]   Pumping messages for window 0
+[11:52:19.267]   Pumping messages for window 1
+[11:52:19.267] Frame took 16.78ms
+[11:52:19.267] Beginning local frame 807
+[11:52:19.284]   Pumping messages for window 0
+[11:52:19.284]   Pumping messages for window 1
+[11:52:19.284] Frame took 16.79ms
+[11:52:19.284] Beginning local frame 808
+[11:52:19.301]   Pumping messages for window 0
+[11:52:19.301]   Pumping messages for window 1
+[11:52:19.301] Frame took 16.56ms
+[11:52:19.301] Beginning local frame 809
+[11:52:19.317]   Pumping messages for window 0
+[11:52:19.318]   Pumping messages for window 1
+[11:52:19.318] Frame took 17.06ms
+[11:52:19.318] Beginning local frame 810
+[11:52:19.334]   Pumping messages for window 0
+[11:52:19.334]   Pumping messages for window 1
+[11:52:19.334] Frame took 16.51ms
+[11:52:19.334] Beginning local frame 811
+[11:52:19.351]   Pumping messages for window 0
+[11:52:19.351]   Pumping messages for window 1
+[11:52:19.351] Frame took 17.03ms
+[11:52:19.351] Beginning local frame 812
+[11:52:19.368]   Pumping messages for window 0
+[11:52:19.368]   Pumping messages for window 1
+[11:52:19.368] Frame took 16.47ms
+[11:52:19.368] Beginning local frame 813
+[11:52:19.384]   Pumping messages for window 0
+[11:52:19.384]   Pumping messages for window 1
+[11:52:19.384] Frame took 16.32ms
+[11:52:19.384] Beginning local frame 814
+[11:52:19.401]   Pumping messages for window 0
+[11:52:19.401]   Pumping messages for window 1
+[11:52:19.401] Frame took 16.59ms
+[11:52:19.401] Beginning local frame 815
+[11:52:19.418]   Pumping messages for window 0
+[11:52:19.418]   Pumping messages for window 1
+[11:52:19.418] Frame took 17.04ms
+[11:52:19.418] Beginning local frame 816
+[11:52:19.434]   Pumping messages for window 0
+[11:52:19.434]   Pumping messages for window 1
+[11:52:19.434] Frame took 16.31ms
+[11:52:19.434] Beginning local frame 817
+[11:52:19.451]   Pumping messages for window 0
+[11:52:19.451]   Pumping messages for window 1
+[11:52:19.451] Frame took 16.66ms
+[11:52:19.451] Beginning local frame 818
+[11:52:19.467]   Pumping messages for window 0
+[11:52:19.468]   Pumping messages for window 1
+[11:52:19.468] Frame took 16.83ms
+[11:52:19.468] Beginning local frame 819
+[11:52:19.484]   Pumping messages for window 0
+[11:52:19.484]   Pumping messages for window 1
+[11:52:19.484] Frame took 16.77ms
+[11:52:19.484] Beginning local frame 820
+[11:52:19.501]   Pumping messages for window 0
+[11:52:19.501]   Pumping messages for window 1
+[11:52:19.501] Frame took 16.89ms
+[11:52:19.501] Beginning local frame 821
+[11:52:19.517]   Pumping messages for window 0
+[11:52:19.518]   Pumping messages for window 1
+[11:52:19.518] Frame took 16.92ms
+[11:52:19.518] Beginning local frame 822
+[11:52:19.534]   Pumping messages for window 0
+[11:52:19.535]   Pumping messages for window 1
+[11:52:19.535] Frame took 16.56ms
+[11:52:19.535] Beginning local frame 823
+[11:52:19.551]   Pumping messages for window 0
+[11:52:19.552]   Pumping messages for window 1

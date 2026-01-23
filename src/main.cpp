@@ -124,6 +124,8 @@ struct VulkanState
   uint32_t numIndices = 0;
   VkBuffer vBuffer = VK_NULL_HANDLE; // Contains vertex and index data
   VmaAllocation vBufferAlloc = VK_NULL_HANDLE;
+  // In the global state because low_latency2 only works with one window anyway.
+  std::array<VkSemaphore, maxFramesInFlight> lowLatencySemaphores{};
 };
 
 static VulkanState vk{};
@@ -152,7 +154,6 @@ struct Window
   std::array<ShaderDataBuffer, maxFramesInFlight> shaderDataBuffers{};
   std::array<VkFence, maxFramesInFlight> renderFences{};
   std::array<VkCommandBuffer, maxFramesInFlight> commandBuffers{};
-  std::array<VkSemaphore, maxFramesInFlight> lowLatencySemaphores{};
 };
 
 static std::vector<Window> windows;
@@ -639,8 +640,23 @@ int main(int argc, const char** argv)
     vmaUnmapMemory(vk.allocator, vk.vBufferAlloc);
   }
 
+  {
+    VkSemaphoreTypeCreateInfo semaphoreTypeCI{};
+    semaphoreTypeCI.sType = VK_STRUCTURE_TYPE_SEMAPHORE_TYPE_CREATE_INFO;
+    semaphoreTypeCI.semaphoreType = VK_SEMAPHORE_TYPE_TIMELINE;
+    VkSemaphoreCreateInfo timelineSemaphoreCI{};
+    timelineSemaphoreCI.sType = VK_STRUCTURE_TYPE_SEMAPHORE_CREATE_INFO;
+    timelineSemaphoreCI.pNext = &semaphoreTypeCI;
+
+    for (int i = 0; i < maxFramesInFlight; i++) {
+      assert_vk(vkCreateSemaphore(vk.device, &timelineSemaphoreCI, nullptr, &vk.lowLatencySemaphores[i]));
+    }
+  }
+
   const VkFormat swapchainImageFormat = VK_FORMAT_B8G8R8A8_SRGB;
-  for (Window& window : windows) {
+  for (size_t i = 0; i < windows.size(); i++) {
+    Window& window = windows[i];
+
     VkSurfaceCapabilitiesKHR surfaceCaps{};
     assert_vk(vkGetPhysicalDeviceSurfaceCapabilitiesKHR(devices[deviceIndex], window.surface, &surfaceCaps));
 
@@ -650,7 +666,7 @@ int main(int argc, const char** argv)
 
     VkSwapchainCreateInfoKHR swapchainCI{};
     swapchainCI.sType = VK_STRUCTURE_TYPE_SWAPCHAIN_CREATE_INFO_KHR;
-    swapchainCI.pNext = &latencyCI;
+    swapchainCI.pNext = i == 0 ? &latencyCI : nullptr;
     swapchainCI.surface = window.surface;
     swapchainCI.minImageCount = surfaceCaps.minImageCount;
     swapchainCI.imageFormat = swapchainImageFormat;
@@ -663,13 +679,6 @@ int main(int argc, const char** argv)
     swapchainCI.presentMode = VK_PRESENT_MODE_FIFO_KHR;
 
     assert_vk(vkCreateSwapchainKHR(vk.device, &swapchainCI, nullptr, &window.swapchain));
-
-    VkLatencySleepModeInfoNV sleepModeInfo{};
-    sleepModeInfo.sType = VK_STRUCTURE_TYPE_LATENCY_SLEEP_MODE_INFO_NV;
-    sleepModeInfo.lowLatencyMode = true;
-    sleepModeInfo.lowLatencyBoost = true;
-    sleepModeInfo.minimumIntervalUs = 1000000 / 60;
-    vkSetLatencySleepModeNV(vk.device, window.swapchain, &sleepModeInfo);
 
     uint32_t imageCount = 0;
     vkGetSwapchainImagesKHR(vk.device, window.swapchain, &imageCount, nullptr);
@@ -713,14 +722,6 @@ int main(int argc, const char** argv)
     VkSemaphoreCreateInfo semaphoreCI{};
     semaphoreCI.sType = VK_STRUCTURE_TYPE_SEMAPHORE_CREATE_INFO;
 
-    VkSemaphoreTypeCreateInfo semaphoreTypeCI{};
-    semaphoreTypeCI.sType = VK_STRUCTURE_TYPE_SEMAPHORE_TYPE_CREATE_INFO;
-    semaphoreTypeCI.semaphoreType = VK_SEMAPHORE_TYPE_TIMELINE;
-    VkSemaphoreCreateInfo timelineSemaphoreCI{};
-
-    timelineSemaphoreCI.sType = VK_STRUCTURE_TYPE_SEMAPHORE_CREATE_INFO;
-    timelineSemaphoreCI.pNext = &semaphoreTypeCI;
-
     VkFenceCreateInfo fenceCI{};
     fenceCI.sType = VK_STRUCTURE_TYPE_FENCE_CREATE_INFO;
     fenceCI.flags = VK_FENCE_CREATE_SIGNALED_BIT;
@@ -729,7 +730,6 @@ int main(int argc, const char** argv)
       assert_vk(vkCreateFence(vk.device, &fenceCI, nullptr, &window.acquireFences[i]));
       assert_vk(vkCreateFence(vk.device, &fenceCI, nullptr, &window.renderFences[i]));
       assert_vk(vkCreateSemaphore(vk.device, &semaphoreCI, nullptr, &window.acquireSemaphores[i]));
-      assert_vk(vkCreateSemaphore(vk.device, &timelineSemaphoreCI, nullptr, &window.lowLatencySemaphores[i]));
     }
 
     window.renderSemaphores.resize(window.swapchainImages.size());
@@ -743,6 +743,13 @@ int main(int argc, const char** argv)
     cbAllocCI.commandBufferCount = maxFramesInFlight;
     assert_vk(vkAllocateCommandBuffers(vk.device, &cbAllocCI, window.commandBuffers.data()));
   }
+
+  VkLatencySleepModeInfoNV sleepModeInfo{};
+  sleepModeInfo.sType = VK_STRUCTURE_TYPE_LATENCY_SLEEP_MODE_INFO_NV;
+  sleepModeInfo.lowLatencyMode = true;
+  sleepModeInfo.lowLatencyBoost = true;
+  sleepModeInfo.minimumIntervalUs = 1000000 / 60;
+  vkSetLatencySleepModeNV(vk.device, windows[0].swapchain, &sleepModeInfo);
 
   {
     // Slang
@@ -939,25 +946,18 @@ int main(int argc, const char** argv)
     {
       ZoneScopedN("Wait on low latency semaphores");
 
-      std::vector<VkSemaphore> waitSemaphores(windows.size());
-      std::vector<uint64_t> semaphoreValues(windows.size());
-      for (size_t i = 0; i < windows.size(); i++) {
-        Window& window = windows[i];
-
-        VkLatencySleepInfoNV sleepInfo{};
-        sleepInfo.sType = VK_STRUCTURE_TYPE_LATENCY_SLEEP_INFO_NV;
-        sleepInfo.signalSemaphore = window.lowLatencySemaphores[resourceIdx];
-        sleepInfo.value = s_frameCount;
-        vkLatencySleepNV(vk.device, window.swapchain, &sleepInfo);
-        waitSemaphores[i] = sleepInfo.signalSemaphore;
-        semaphoreValues[i] = s_frameCount;
-      }
+      uint64_t semaphoreValue = s_frameCount; // Previous frame's presentID
+      VkLatencySleepInfoNV sleepInfo{};
+      sleepInfo.sType = VK_STRUCTURE_TYPE_LATENCY_SLEEP_INFO_NV;
+      sleepInfo.signalSemaphore = vk.lowLatencySemaphores[resourceIdx];
+      sleepInfo.value = semaphoreValue;
+      vkLatencySleepNV(vk.device, windows[0].swapchain, &sleepInfo);
 
       VkSemaphoreWaitInfo waitInfo{};
       waitInfo.sType = VK_STRUCTURE_TYPE_SEMAPHORE_WAIT_INFO;
-      waitInfo.semaphoreCount = static_cast<uint32_t>(waitSemaphores.size());
-      waitInfo.pSemaphores = waitSemaphores.data();
-      waitInfo.pValues = semaphoreValues.data();
+      waitInfo.semaphoreCount = 1;
+      waitInfo.pSemaphores = &vk.lowLatencySemaphores[resourceIdx];
+      waitInfo.pValues = &semaphoreValue;
 
       vkWaitSemaphores(vk.device, &waitInfo, 1000000000);
     }
@@ -1251,7 +1251,6 @@ int main(int argc, const char** argv)
       vkDestroyFence(vk.device, window.renderFences[i], nullptr);
       vkDestroySemaphore(vk.device, window.acquireSemaphores[i], nullptr);
       vkDestroySemaphore(vk.device, window.renderSemaphores[i], nullptr);
-      vkDestroySemaphore(vk.device, window.lowLatencySemaphores[i], nullptr);
       vmaUnmapMemory(vk.allocator, window.shaderDataBuffers[i].allocation);
       vmaDestroyBuffer(vk.allocator, window.shaderDataBuffers[i].buffer, window.shaderDataBuffers[i].allocation);
     }
@@ -1263,6 +1262,10 @@ int main(int argc, const char** argv)
     vkDestroySurfaceKHR(vk.instance, window.surface, nullptr);
   }
 
+  for (auto i = 0; i < maxFramesInFlight; i++) {
+    vkDestroySemaphore(vk.device, vk.lowLatencySemaphores[i], nullptr);
+  }
+
   vmaDestroyBuffer(vk.allocator, vk.vBuffer, vk.vBufferAlloc);
   vkDestroyPipelineLayout(vk.device, vk.pipelineLayout, nullptr);
   vkDestroyPipeline(vk.device, vk.pipeline, nullptr);
@@ -1272,8 +1275,8 @@ int main(int argc, const char** argv)
   vkDestroyDevice(vk.device, nullptr);
   vkDestroyInstance(vk.instance, nullptr);
 
-  for (int i = 0; i < windows.size(); i++) {
-    destroyWindow(windows[i]);
+  for (Window& window : windows) {
+    destroyWindow(window);
   }
 
   return EXIT_SUCCESS;
